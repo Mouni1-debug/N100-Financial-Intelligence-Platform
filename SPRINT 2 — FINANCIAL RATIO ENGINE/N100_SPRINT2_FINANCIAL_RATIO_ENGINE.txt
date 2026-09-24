@@ -1,0 +1,641 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║      🚀 N100 FINANCIAL INTELLIGENCE PLATFORM - SPRINT 2 🚀               ║
+║                                                                            ║
+║            COMPLETE IMPLEMENTATION GUIDE & CODE PACKAGE                   ║
+║                                                                            ║
+║          Financial Ratio Engine (Day 08 - Day 14, 42 Story Points)        ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+
+📊 SPRINT 2 OVERVIEW
+════════════════════════════════════════════════════════════════════════════
+
+SPRINT GOAL:
+Compute 50+ KPIs (Key Performance Indicators) for all 92 companies across
+all available years. Populate financial_ratios table with 1,100+ rows and
+14+ KPI columns. Handle all edge cases (negative equity, debt-free companies,
+CAGR turnarounds, bank carve-outs).
+
+TIMELINE: 7 working days (Day 08 - Day 14)
+STORY POINTS: 42 SP
+TEAM: 3 developers (AS, MV, AN)
+
+EXIT CRITERIA:
+✓ financial_ratios table: 1,100+ rows populated
+✓ 14+ KPI columns with zero null-only columns
+✓ 20 KPI formula unit tests: 0 failures
+✓ Manual spot-check: 3 companies verified (ROE, Revenue CAGR within 0.1%)
+✓ ratio_edge_cases.log: All anomalies documented
+✓ Sprint review: Signed off by team lead
+
+
+🗂️ COMPLETE FOLDER STRUCTURE (SPRINT 2)
+════════════════════════════════════════════════════════════════════════════
+
+n100-financial-intelligence/
+│
+├─ src/
+│  ├─ analytics/                    ← NEW: Ratio computation engine
+│  │  ├─ __init__.py
+│  │  ├─ ratios.py                  ← Day 08-09: Profitability, leverage, efficiency
+│  │  ├─ cagr.py                    ← Day 10: CAGR engine with 6 edge cases
+│  │  ├─ cashflow_kpis.py           ← Day 11: Cash flow analysis
+│  │  ├─ validators.py              ← Input validation for ratios
+│  │  └─ edge_cases.py              ← Handle special sectors (banks, etc.)
+│  │
+│  ├─ etl/                          ← EXISTING (from Sprint 1)
+│  ├─ db/
+│  ├─ config/
+│  └─ utils/
+│
+├─ db/
+│  ├─ schema.sql                    ← UPDATED: Add financial_ratios columns
+│  ├─ migrations/
+│  │  └─ 002_add_kpi_columns.sql    ← NEW: Add 14+ KPI columns
+│  └─ nifty100.db                   ← EXISTING
+│
+├─ data/
+│  └─ output/                       ← UPDATED: Add new ratio outputs
+│     ├─ load_audit.csv             ← EXISTING
+│     ├─ validation_failures.csv    ← EXISTING
+│     ├─ capital_allocation.csv     ← NEW: Day 11 output
+│     ├─ ratio_edge_cases.log       ← NEW: Day 13 output
+│     └─ ratio_computation_log.csv  ← NEW: Execution log
+│
+├─ tests/
+│  ├─ unit/
+│  │  ├─ etl/                       ← EXISTING (Sprint 1)
+│  │  └─ kpi/                       ← NEW: 20+ KPI formula tests
+│  │     ├─ test_profitability.py   ← Day 08 tests (8 tests)
+│  │     ├─ test_leverage.py        ← Day 09 tests (8 tests)
+│  │     ├─ test_cagr.py            ← Day 10 tests (10 tests)
+│  │     ├─ test_cashflow.py        ← Day 11 tests (6 tests)
+│  │     └─ test_edge_cases.py      ← Day 13 tests (8 tests)
+│  │
+│  └─ integration/
+│     └─ test_ratio_engine.py       ← End-to-end ratio computation test
+│
+├─ notebooks/
+│  ├─ 01_data_exploration.ipynb     ← EXISTING
+│  └─ 03_ratio_analysis.ipynb       ← NEW: Jupyter for ratio validation
+│
+├─ docs/
+│  ├─ SPRINT_1_GUIDE.md             ← EXISTING
+│  ├─ SPRINT_2_GUIDE.md             ← NEW: Complete Sprint 2 guide
+│  ├─ KPI_FORMULAS.md               ← NEW: All 50+ KPI formulas documented
+│  ├─ EDGE_CASES.md                 ← NEW: Edge case handling guide
+│  ├─ RATIO_ENGINE_DESIGN.md        ← NEW: Architecture & design
+│  └─ BANK_CARVEOUT.md              ← NEW: Financial sector special handling
+│
+├─ scripts/
+│  ├─ run_ratio_engine.py           ← NEW: Execute full ratio computation
+│  ├─ validate_ratios.py            ← NEW: Validate computed ratios
+│  └─ generate_ratio_report.py      ← NEW: Generate ratio analysis report
+│
+├─ logs/
+│  ├─ etl.log                       ← EXISTING
+│  └─ ratio_engine.log              ← NEW: Ratio computation logs
+│
+├─ Makefile                         ← UPDATED: Add ratio targets
+├─ requirements.txt                 ← UPDATED: Add new dependencies
+└─ README.md                        ← UPDATED: Add Sprint 2 info
+
+
+📋 DAILY BREAKDOWN (DAY 08 - DAY 14)
+════════════════════════════════════════════════════════════════════════════
+
+DAY 08: PROFITABILITY RATIOS (4 hours)
+──────────────────────────────────────
+
+TASKS:
+✓ Create src/analytics/ratios.py (base file)
+✓ Implement Net Profit Margin: net_profit / sales × 100
+✓ Implement Operating Profit Margin with OPM cross-check
+✓ Implement Return on Equity (ROE): net_profit / (equity + reserves) × 100
+✓ Implement Return on Capital Employed (ROCE)
+✓ Implement Return on Assets (ROA)
+✓ Add financial sector logic for ROCE
+✓ Write 8 unit tests
+
+DELIVERABLES:
+- src/analytics/ratios.py (300+ lines)
+- tests/unit/kpi/test_profitability.py (8 tests)
+- Documentation in KPI_FORMULAS.md
+
+KEY FORMULAS:
+
+Net Profit Margin (NPM):
+  NPM = (net_profit / sales) × 100
+  Returns: None if sales = 0 or None
+  Unit Tests: normal case, zero sales, negative profit
+
+Operating Profit Margin (OPM):
+  OPM = (operating_profit / sales) × 100
+  Cross-check: Compare computed OPM with opm_pct column
+  Log: If difference > 1%, log warning with company_id, year, difference
+  Returns: None if sales = 0
+
+Return on Equity (ROE):
+  ROE = (net_profit / (equity_capital + reserves)) × 100
+  Returns: None if equity + reserves ≤ 0
+  Flag: If equity < 0, set negative_equity_flag = True
+  Unit Tests: normal case, zero equity, negative equity
+
+Return on Capital Employed (ROCE):
+  ROCE = (EBIT / (equity + reserves + borrowings)) × 100
+  Where EBIT = operating_profit
+  Special Logic: For Financials sector, use sector-relative benchmark
+  Returns: None if denominator ≤ 0
+
+Return on Assets (ROA):
+  ROA = (net_profit / total_assets) × 100
+  Returns: None if total_assets = 0
+
+
+DAY 09: LEVERAGE & EFFICIENCY RATIOS (4 hours)
+───────────────────────────────────────────────
+
+TASKS:
+✓ Implement Debt-to-Equity Ratio
+✓ Add high leverage flag (D/E > 5 for non-financial companies)
+✓ Implement Interest Coverage Ratio
+✓ Add debt-free label for ICR = None
+✓ Add ICR warning flag (ICR < 1.5)
+✓ Implement Net Debt calculation
+✓ Implement Asset Turnover
+✓ Write 8 unit tests
+
+DELIVERABLES:
+- Updated src/analytics/ratios.py (add 7 functions)
+- tests/unit/kpi/test_leverage.py (8 tests)
+
+KEY FORMULAS:
+
+Debt-to-Equity (D/E):
+  D/E = borrowings / (equity_capital + reserves)
+  Special Case: If borrowings = 0, return 0 (NOT None)
+  Flag: If D/E > 5 AND sector ≠ Financials, set high_leverage_flag = True
+  For Financials sector: No high_leverage flag (leverage is normal)
+  Unit Tests: debt-free returns 0, high D/E flag, financial sector exception
+
+Interest Coverage Ratio (ICR):
+  ICR = (operating_profit + other_income) / interest_expense
+  Returns: None if interest_expense = 0
+  Label: If ICR = None, set icr_label = "Debt Free"
+  Flag: If 0 < ICR < 1.5, set icr_warning_flag = True
+  Unit Tests: debt-free returns None with label, interest_coverage < 1.5 flag
+
+Net Debt:
+  Net Debt = borrowings - investments
+  (Use investments as proxy for liquid assets)
+  Returns: Can be negative if investments > borrowings
+
+Asset Turnover:
+  Asset Turnover = sales / total_assets
+  Returns: None if total_assets = 0
+  Interpretation: Sales generated per unit of assets
+
+
+DAY 10: CAGR ENGINE - ALL GROWTH METRICS (5 hours)
+───────────────────────────────────────────────────
+
+TASKS:
+✓ Create src/analytics/cagr.py
+✓ Implement CAGR formula: ((end/start)^(1/n) - 1) × 100
+✓ Revenue CAGR: 3-year, 5-year, 10-year
+✓ PAT (Net Profit) CAGR: 3-year, 5-year, 10-year
+✓ EPS CAGR: 3-year, 5-year, 10-year
+✓ Handle all 6 edge cases with flags
+✓ Store CAGR value + separate flag column
+✓ Write 10 unit tests
+
+DELIVERABLES:
+- src/analytics/cagr.py (250+ lines)
+- tests/unit/kpi/test_cagr.py (10 tests)
+
+KEY FORMULAS:
+
+CAGR Formula:
+  CAGR = ((end_value / start_value) ^ (1 / n_years)) - 1) × 100
+  
+Edge Cases (6 types):
+
+1. Positive → Positive (Normal)
+   ✓ Compute CAGR normally
+   ✓ flag = None or "NORMAL"
+
+2. Positive → Negative (Decline to Loss)
+   ✗ Return None
+   ✓ flag = "DECLINE_TO_LOSS"
+   ✓ Example: PAT went from +100 to -50
+
+3. Negative → Positive (Turnaround)
+   ✗ Return None
+   ✓ flag = "TURNAROUND"
+   ✓ Example: PAT went from -100 to +100
+
+4. Negative → Negative (Both Negative)
+   ✗ Return None
+   ✓ flag = "BOTH_NEGATIVE"
+   ✓ Example: PAT -100 to -50 (improving but still negative)
+
+5. Zero Base (Start = 0)
+   ✗ Return None
+   ✓ flag = "ZERO_BASE"
+   ✓ Cannot divide by zero
+
+6. Insufficient Data (<n years)
+   ✗ Return None
+   ✓ flag = "INSUFFICIENT_DATA"
+   ✓ Example: Only 2 years of data for 5-year CAGR
+
+Revenue CAGR Computation:
+  revenue_cagr_3yr = CAGR(revenue_3yr_ago, revenue_current_year, 3)
+  revenue_cagr_5yr = CAGR(revenue_5yr_ago, revenue_current_year, 5)
+  revenue_cagr_10yr = CAGR(revenue_10yr_ago, revenue_current_year, 10)
+  Columns: revenue_cagr_3yr, revenue_cagr_3yr_flag
+           revenue_cagr_5yr, revenue_cagr_5yr_flag
+           revenue_cagr_10yr, revenue_cagr_10yr_flag
+
+PAT CAGR Computation:
+  pat_cagr_3yr = CAGR(pat_3yr_ago, pat_current_year, 3)
+  Similar for 5-year and 10-year
+
+EPS CAGR Computation:
+  eps_cagr_3yr = CAGR(eps_3yr_ago, eps_current_year, 3)
+  Similar for 5-year and 10-year
+
+Unit Tests (10 total):
+  ✓ test_cagr_normal_case_positive_positive
+  ✓ test_cagr_decline_to_loss_flag
+  ✓ test_cagr_turnaround_flag
+  ✓ test_cagr_both_negative_flag
+  ✓ test_cagr_zero_base_flag
+  ✓ test_cagr_insufficient_data_flag
+  ✓ test_revenue_cagr_3yr_5yr_10yr
+  ✓ test_pat_cagr_computation
+  ✓ test_eps_cagr_computation
+  ✓ test_cagr_edge_case_combinations
+
+
+DAY 11: CASH FLOW KPIs & CAPITAL ALLOCATION (5 hours)
+─────────────────────────────────────────────────────
+
+TASKS:
+✓ Create src/analytics/cashflow_kpis.py
+✓ Implement Free Cash Flow (FCF)
+✓ Implement CFO Quality Score (5-year average)
+✓ Implement CapEx Intensity
+✓ Implement FCF Conversion Rate
+✓ Implement 8-pattern Capital Allocation classifier
+✓ Generate output/capital_allocation.csv
+✓ Write 6 unit tests
+
+DELIVERABLES:
+- src/analytics/cashflow_kpis.py (280+ lines)
+- output/capital_allocation.csv (92 companies × years)
+- tests/unit/kpi/test_cashflow.py (6 tests)
+
+KEY FORMULAS:
+
+Free Cash Flow (FCF):
+  FCF = operating_activity + investing_activity
+  (Note: investing_activity is negative for outflows)
+  Returns: Can be negative (that's OK)
+  Interpretation: Cash available after capex
+
+CFO Quality Score:
+  CFO Quality = (avg CFO over 5 years) / (avg PAT over 5 years)
+  Thresholds:
+    > 1.0    = "High Quality" (cash earnings > reported earnings)
+    0.5-1.0  = "Moderate" (some working capital management)
+    < 0.5    = "Accrual Risk" (cash earnings << reported earnings)
+  Returns: None if PAT = 0
+
+CapEx Intensity:
+  CapEx Intensity = abs(investing_activity) / sales × 100
+  (Use abs() to handle negative cf_investing)
+  Thresholds:
+    < 3%     = "Asset Light" (minimal capex needed)
+    3-8%     = "Moderate" (normal capex)
+    > 8%     = "Capital Intensive" (high capex required)
+  Returns: None if sales = 0
+
+FCF Conversion Rate:
+  FCF Conv = FCF / operating_profit × 100
+  Interpretation: % of operating profit converted to free cash
+  Returns: None if operating_profit = 0
+
+Capital Allocation Patterns (8 types):
+  Signature: (CFO_sign, CFI_sign, CFF_sign)
+  
+  (+, -, -) = Reinvestor
+    → Positive operating CF, negative investing CF (capex), negative financing CF
+    → Using profits to invest in growth, no dividend/debt issuance
+  
+  (+, -, +) = Shareholder Returns
+    → Positive operating CF, negative investing CF, positive financing CF
+    → Excess cash returned to shareholders (dividends/buybacks)
+  
+  (+, +, -) = Liquidating Assets
+    → Positive operating CF, positive investing CF (asset sales), negative financing CF
+    → Selling assets, paying down debt
+  
+  (-, +, +) = Distress Signal
+    → Negative operating CF, positive investing CF (asset sales), positive financing CF
+    → Using asset sales and borrowing to fund operations (concerning)
+  
+  (-, -, +) = Growth Funded by Debt
+    → Negative operating CF, negative investing CF (capex), positive financing CF
+    → Early-stage/growth company funded by debt
+  
+  (+, +, +) = Cash Accumulator
+    → All positive: strong operating cf, no major capex, borrowing or earning
+    → Building cash reserves
+  
+  (-, -, -) = Pre-Revenue
+    → All negative: no operating income, burning cash on capex, borrowing
+    → Pre-revenue startup or distressed company
+  
+  (+, -, +) = Mixed/Complex
+    → Combination that doesn't fit standard patterns
+
+
+DAY 12: POPULATE FINANCIAL_RATIOS TABLE (4 hours)
+──────────────────────────────────────────────────
+
+TASKS:
+✓ Run full ratio engine for all 92 companies, all years
+✓ Compute all KPIs: profitability, leverage, efficiency, CAGR, cash flow
+✓ Write 14+ KPI columns to financial_ratios table
+✓ Verify row count >= 1,100
+✓ Manual spot-check: 3 companies (ROE, Revenue CAGR within 0.1%)
+✓ Create ratio_computation_log.csv
+
+DELIVERABLES:
+- Updated financial_ratios table (1,100+ rows)
+- ratio_computation_log.csv
+- Spot-check validation report
+
+KPI COLUMNS (14+ required):
+1. net_profit_margin_pct
+2. operating_profit_margin_pct
+3. return_on_equity_pct
+4. return_on_capital_employed_pct
+5. return_on_assets_pct
+6. debt_to_equity
+7. interest_coverage_ratio
+8. asset_turnover
+9. free_cash_flow_cr (in crores)
+10. capex_intensity_pct
+11. fcf_conversion_rate_pct
+12. earnings_per_share
+13. book_value_per_share
+14. dividend_payout_ratio_pct
+15. total_debt_cr
+16. revenue_cagr_5yr_pct
+17. pat_cagr_5yr_pct
+18. eps_cagr_5yr_pct
+
+Spot-Check Process (3 random companies):
+
+Company 1 Example: HDFC Bank (Year 2024)
+  Manual Calculation (Spreadsheet):
+    ROE = 6500 / (2000 + 5000) × 100 = 92.86%
+  Database Value: 92.84%
+  Difference: 0.02% ✓ (within 0.1%)
+
+  Revenue CAGR (5-year: 2019-2024):
+  2019: 15,500 Cr
+  2024: 28,750 Cr
+  CAGR = ((28750/15500)^(1/5) - 1) × 100 = 13.27%
+  Database Value: 13.28%
+  Difference: 0.01% ✓ (within 0.1%)
+
+
+DAY 13: BANK CARVE-OUT & EDGE CASE LOG (4 hours)
+────────────────────────────────────────────────
+
+TASKS:
+✓ Identify 19 financial sector companies
+✓ Suppress high leverage flag for banks/NBFCs
+✓ Cross-check computed ROCE vs source roce_percentage
+✓ Cross-check computed ROE vs source roe_percentage
+✓ Log anomalies > 5% difference
+✓ Categorize each anomaly
+✓ Document edge case resolutions
+
+DELIVERABLES:
+- ratio_edge_cases.log
+- EDGE_CASES.md (team knowledge base)
+- src/analytics/edge_cases.py (financial sector logic)
+
+Financial Sector Companies (19):
+Broad Sector = "Financials"
+- HDFCBANK, ICICIBANK, AXISBANK, KOTAKBANK (Banks)
+- SBIN, INDUSINDBK, FEDERALBNK (Public Banks)
+- HDFC (Housing Finance)
+- INDIABULL, EQUITAS (NBFC)
+- RELIANCE (Finance subsidiary)
+- BAJAJFINSV, BAJAJHLDNG (Insurance/Finance)
++ Others
+
+Leverage Flag Suppression:
+  Standard Logic (Non-Financial):
+    If D/E > 5: high_leverage_flag = True, warning
+  
+  Financial Sector Logic:
+    If sector = "Financials": DO NOT flag high D/E
+    Reason: Banks operate with 5-10x leverage by design
+    Replace: high_leverage_flag = None (suppress flag)
+
+Cross-Check Logic:
+
+ROCE Anomaly Detection:
+  Computed ROCE (from formulas):
+    ROCE = EBIT / (Equity + Reserves + Borrowings) × 100
+  
+  Source ROCE (from companies.xlsx, roce_percentage column):
+    Pre-computed industry benchmark or historical value
+  
+  Anomaly Definition:
+    If |computed_ROCE - source_ROCE| > 5%:
+      Log to ratio_edge_cases.log
+      Category: "ROCE_VARIANCE_>5%"
+  
+  Example Entry:
+    company_id=HDFC, year=2023
+    computed_ROCE=18.5%, source_ROCE=19.2%
+    difference=0.7%, status=ACCEPTABLE
+    comment="Minor rounding difference"
+
+ROE Anomaly Detection:
+  Computed ROE (from formulas):
+    ROE = Net Profit / (Equity + Reserves) × 100
+  
+  Source ROE (from companies.xlsx, roe_percentage column):
+    Note: Some source values appear anomalous
+    Example: TCS shows 0.52 (seems like error, should be 52?)
+  
+  Anomaly Definition:
+    If |computed_ROE - source_ROE| > 5%:
+      Log to ratio_edge_cases.log
+      Category: "ROE_VARIANCE_>5%"
+  
+  Resolution Strategy:
+    Use computed ROE for analytics
+    Flag source ROE as "for display only"
+    Document discrepancy with probable cause
+
+Edge Case Categories:
+  1. Data Source Issue
+     └─ Example: Source data appears incorrect or stale
+     └─ Action: Use computed value, document source error
+  
+  2. Version Difference
+     └─ Example: Source data from different fiscal year definition
+     └─ Action: Document version mismatch
+  
+  3. Formula Discrepancy
+     └─ Example: Source uses different formula or adjustment
+     └─ Action: Document formula difference, explain choice
+
+
+DAY 14: TESTS & SPRINT REVIEW (3 hours)
+───────────────────────────────────────
+
+TASKS:
+✓ Run all 20 KPI formula unit tests (0 failures required)
+✓ Review ratio_edge_cases.log (all anomalies documented)
+✓ Run screener preview: ROE > 15% AND D/E < 1
+  └─ Verify result count: 15-50 companies
+  └─ Verify business logic makes sense
+✓ Sprint retrospective (formula decisions, edge cases)
+✓ Demo financial_ratios table to team lead
+✓ Sign-off
+
+DELIVERABLES:
+- Test execution report (20 tests, 0 failures)
+- Screener results (ROE > 15% AND D/E < 1)
+- Sprint retrospective document
+- Demo presentation
+
+Test Execution (20 tests total):
+
+Day 08 Tests (Profitability):
+  ✓ test_npm_normal_case
+  ✓ test_npm_zero_sales_returns_none
+  ✓ test_opm_crosscheck_mismatch
+  ✓ test_roe_normal_case
+  ✓ test_roe_zero_equity_returns_none
+  ✓ test_roe_negative_equity_flag
+  ✓ test_roce_normal_case
+  ✓ test_roa_normal_case
+
+Day 09 Tests (Leverage):
+  ✓ test_debt_to_equity_debt_free_returns_zero
+  ✓ test_debt_to_equity_high_leverage_flag
+  ✓ test_debt_to_equity_financial_no_flag
+  ✓ test_icr_interest_zero_returns_none
+  ✓ test_icr_debt_free_label
+  ✓ test_icr_warning_flag_less_than_1p5
+  ✓ test_net_debt_calculation
+  ✓ test_asset_turnover_normal
+
+Day 10 Tests (CAGR):
+  ✓ test_cagr_normal_positive_to_positive
+  ✓ test_cagr_decline_to_loss_flag
+  ✓ test_cagr_turnaround_flag
+  ✓ test_cagr_both_negative_flag
+  ✓ test_cagr_zero_base_flag
+  ✓ test_cagr_insufficient_data_flag
+  ✓ test_revenue_cagr_multi_year
+  ✓ test_pat_cagr_computation
+  ✓ test_eps_cagr_computation
+  ✓ test_cagr_precision_0p1_percent
+
+Screener Results (ROE > 15% AND D/E < 1):
+  Query: SELECT company_id, fiscal_year, roe_pct, debt_to_equity
+         FROM financial_ratios
+         WHERE return_on_equity_pct > 15 AND debt_to_equity < 1
+         ORDER BY return_on_equity_pct DESC
+
+  Expected Results: 15-50 companies-years
+  
+  Example Top Results:
+  1. HDFCBANK, 2024: ROE=92.5%, D/E=0.15 (strong bank)
+  2. MARUTI, 2023: ROE=32.1%, D/E=0.22 (auto company)
+  3. INFOSYS, 2024: ROE=28.5%, D/E=0.05 (IT services)
+  4. TCS, 2024: ROE=26.3%, D/E=0.08 (IT services)
+  5. ...
+
+  Business Logic Check:
+  ✓ Results should be high-quality companies
+  ✓ No distressed or highly leveraged companies
+  ✓ Mix of sectors (not all finance or IT)
+
+
+✅ EXIT CRITERIA (SPRINT 2 COMPLETE)
+════════════════════════════════════════════════════════════════════════════
+
+Database Validation:
+  ☐ SELECT COUNT(*) FROM financial_ratios WHERE company_id IS NOT NULL
+    Result: >= 1,100 rows
+
+  ☐ Check null counts per column:
+    SELECT column_name, COUNT(*) - COUNT(column) as null_count
+    FROM financial_ratios
+    GROUP BY column_name
+    Result: No all-null columns
+
+Data Quality:
+  ☐ Manual spot-check: 3 companies, ROE and Revenue CAGR within 0.1%
+  ☐ ratio_edge_cases.log exists with all anomalies documented
+  ☐ Screener results (ROE > 15% AND D/E < 1): 15-50 companies
+
+Code Quality:
+  ☐ src/analytics/ratios.py: Complete, documented, no errors
+  ☐ src/analytics/cagr.py: All 6 edge cases implemented
+  ☐ src/analytics/cashflow_kpis.py: 8 patterns classified
+  ☐ All functions have docstrings with examples
+
+Testing:
+  ☐ 20 KPI formula unit tests: 100% pass (0 failures)
+  ☐ Tests cover normal cases, edge cases, and error conditions
+  ☐ Test coverage: >= 85%
+
+Documentation:
+  ☐ KPI_FORMULAS.md: All 50+ formulas documented
+  ☐ EDGE_CASES.md: All edge case handling documented
+  ☐ BANK_CARVEOUT.md: Financial sector logic documented
+  ☐ RATIO_ENGINE_DESIGN.md: Architecture documented
+
+Review & Sign-Off:
+  ☐ Sprint retrospective completed
+  ☐ Demo completed to team lead
+  ☐ All questions answered
+  ☐ Team lead sign-off obtained
+
+
+════════════════════════════════════════════════════════════════════════════
+
+SPRINT 2 COMPLETE WHEN ALL EXIT CRITERIA MET! ✅
+
+Team Coordination:
+  Day 08-09: Pair programming (AS leads, MV pairs)
+  Day 10-11: Parallel development (AN does CAGR, MV does cashflow)
+  Day 12: Integration (all three verify table population)
+  Day 13: Edge case review (as group)
+  Day 14: Demo & retrospective (as group)
+
+Expected Outcomes:
+  ✓ 50+ KPIs computed for 92 companies
+  ✓ 1,100+ rows in financial_ratios table
+  ✓ Zero null-only columns
+  ✓ 20/20 tests passing
+  ✓ All edge cases documented and understood
+  ✓ Ready for Sprint 3 (Portfolio Analysis & Screening)
+
+════════════════════════════════════════════════════════════════════════════
