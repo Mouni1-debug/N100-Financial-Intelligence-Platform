@@ -1,0 +1,91 @@
+.PHONY: help install test test-coverage run clean lint format db-setup screener peer-report radar-charts validate all
+
+.DEFAULT_GOAL := help
+
+PYTHON := python
+PIP := pip
+PYTEST := pytest
+
+help:
+	@echo "N100 Sprint 3 - Screener & Peer Comparison Engine"
+	@echo "========================================"
+	@echo ""
+	@echo "Available commands:"
+	@echo "  make install          Install dependencies"
+	@echo "  make test             Run all unit tests"
+	@echo "  make test-coverage    Run tests with coverage report"
+	@echo "  make run              Run full screener pipeline"
+	@echo "  make screener         Generate screener output only"
+	@echo "  make peer-report      Generate peer comparison report"
+	@echo "  make radar-charts     Generate radar chart visualizations"
+	@echo "  make validate         Validate data quality"
+	@echo "  make db-setup         Setup database tables"
+	@echo "  make clean            Clean temporary files"
+	@echo "  make lint             Lint code with flake8"
+	@echo "  make format           Format code with black"
+	@echo "  make all              Run install, test, and run"
+	@echo ""
+
+install:
+	@echo "Installing dependencies..."
+	$(PIP) install -r requirements.txt
+
+test:
+	@echo "Running unit tests..."
+	$(PYTEST) tests/unit/screener/ -v --tb=short
+
+test-coverage:
+	@echo "Running tests with coverage..."
+	$(PYTEST) tests/unit/screener/ -v --cov=src/screener --cov=src/analytics --cov-report=html --cov-report=term
+
+run: screener peer-report radar-charts validate
+	@echo "All pipelines completed successfully!"
+
+screener:
+	@echo "Running screener engine..."
+	$(PYTHON) scripts/run_screener.py
+	@echo "✓ screener_output.xlsx generated"
+
+peer-report:
+	@echo "Generating peer comparison report..."
+	$(PYTHON) scripts/generate_peer_report.py
+	@echo "✓ peer_comparison.xlsx generated"
+
+radar-charts:
+	@echo "Generating radar charts..."
+	$(PYTHON) scripts/generate_radar_charts.py
+	@echo "✓ 92 radar charts generated"
+
+validate:
+	@echo "Validating screener output..."
+	$(PYTHON) scripts/validate_screener.py
+	@echo "✓ Validation complete"
+
+db-setup:
+	@echo "Setting up database..."
+	@echo "Applying migration 003_add_peer_percentiles.sql..."
+	sqlite3 db/nifty100.db < db/migrations/003_add_peer_percentiles.sql
+	@echo "✓ Database setup complete"
+	@sqlite3 db/nifty100.db "SELECT COUNT(*) as peer_percentiles_count FROM peer_percentiles;"
+
+clean:
+	@echo "Cleaning temporary files..."
+	find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+	find . -type f -name "*.pyc" -delete
+	find . -type d -name ".pytest_cache" -exec rm -rf {} + 2>/dev/null || true
+	find . -type d -name ".coverage" -delete 2>/dev/null || true
+	find . -type d -name "htmlcov" -exec rm -rf {} + 2>/dev/null || true
+	@echo "✓ Cleanup complete"
+
+lint:
+	@echo "Linting code..."
+	flake8 src/ scripts/ tests/ --max-line-length=100 --exclude=.git,__pycache__
+
+format:
+	@echo "Formatting code with black..."
+	black src/ scripts/ tests/ --line-length=100
+
+all: clean install test run
+	@echo "✓ All tasks completed successfully!"
+
+.PHONY: help install test test-coverage run clean lint format db-setup screener peer-report radar-charts validate all
