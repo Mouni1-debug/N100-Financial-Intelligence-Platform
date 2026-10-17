@@ -1,0 +1,93 @@
+company_id,company_name,ticker,sector,is_financial
+1,Tata Consultancy Services,TCS,IT,False
+2,Infosys,INFY,IT,False
+3,Wipro,WIPRO,IT,False
+4,HCL Technologies,HCLTECH,IT,False
+5,Tech Mahindra,TECHM,IT,False
+6,LTIMindtree,LTIM,IT,False
+7,Persistent Systems,PERSISTENT,IT,False
+8,Coforge,COFORGE,IT,False
+9,HDFC Bank,HDFCBANK,Banking,True
+10,ICICI Bank,ICICIBANK,Banking,True
+11,State Bank of India,SBIN,Banking,True
+12,Kotak Mahindra Bank,KOTAKBANK,Banking,True
+13,Axis Bank,AXISBANK,Banking,True
+14,IndusInd Bank,INDUSINDBK,Banking,True
+15,Bank of Baroda,BANKBARODA,Banking,True
+16,Punjab National Bank,PNB,Banking,True
+17,IDFC First Bank,IDFCFIRSTB,Banking,True
+18,Federal Bank,FEDERALBNK,Banking,True
+19,Bajaj Finance,BAJFINANCE,Financial Services,True
+20,Bajaj Finserv,BAJAJFINSV,Financial Services,True
+21,HDFC Life Insurance,HDFCLIFE,Financial Services,True
+22,SBI Life Insurance,SBILIFE,Financial Services,True
+23,Cholamandalam Investment,CHOLAFIN,Financial Services,True
+24,Shriram Finance,SHRIRAMFIN,Financial Services,True
+25,Muthoot Finance,MUTHOOTFIN,Financial Services,True
+26,ICICI Lombard General Insurance,ICICIGI,Financial Services,True
+27,Reliance Industries,RELIANCE,Oil & Gas,False
+28,Oil and Natural Gas Corporation,ONGC,Oil & Gas,False
+29,Bharat Petroleum,BPCL,Oil & Gas,False
+30,Indian Oil Corporation,IOC,Oil & Gas,False
+31,GAIL (India),GAIL,Oil & Gas,False
+32,Hindustan Petroleum,HINDPETRO,Oil & Gas,False
+33,Petronet LNG,PETRONET,Oil & Gas,False
+34,Oil India,OIL,Oil & Gas,False
+35,Sun Pharmaceutical Industries,SUNPHARMA,Pharma,False
+36,Dr. Reddy's Laboratories,DRREDDY,Pharma,False
+37,Cipla,CIPLA,Pharma,False
+38,Divi's Laboratories,DIVISLAB,Pharma,False
+39,Lupin,LUPIN,Pharma,False
+40,Aurobindo Pharma,AUROPHARMA,Pharma,False
+41,Torrent Pharmaceuticals,TORNTPHARM,Pharma,False
+42,Zydus Lifesciences,ZYDUSLIFE,Pharma,False
+43,Tata Steel,TATASTEEL,Metals & Mining,False
+44,JSW Steel,JSWSTEEL,Metals & Mining,False
+45,Hindalco Industries,HINDALCO,Metals & Mining,False
+46,Vedanta,VEDL,Metals & Mining,False
+47,Coal India,COALINDIA,Metals & Mining,False
+48,NMDC,NMDC,Metals & Mining,False
+49,Steel Authority of India,SAIL,Metals & Mining,False
+50,Jindal Steel & Power,JINDALSTEL,Metals & Mining,False
+51,Maruti Suzuki India,MARUTI,Automobiles,False
+52,Mahindra & Mahindra,M&M,Automobiles,False
+53,Tata Motors,TATAMOTORS,Automobiles,False
+54,Bajaj Auto,BAJAJ-AUTO,Automobiles,False
+55,Eicher Motors,EICHERMOT,Automobiles,False
+56,Hero MotoCorp,HEROMOTOCO,Automobiles,False
+57,TVS Motor Company,TVSMOTOR,Automobiles,False
+58,Ashok Leyland,ASHOKLEY,Automobiles,False
+59,Bosch,BOSCHLTD,Automobiles,False
+60,Hindustan Unilever,HINDUNILVR,FMCG,False
+61,ITC,ITC,FMCG,False
+62,Nestle India,NESTLEIND,FMCG,False
+63,Britannia Industries,BRITANNIA,FMCG,False
+64,Dabur India,DABUR,FMCG,False
+65,Godrej Consumer Products,GODREJCP,FMCG,False
+66,Marico,MARICO,FMCG,False
+67,Colgate-Palmolive (India),COLPAL,FMCG,False
+68,NTPC,NTPC,Power & Utilities,False
+69,Power Grid Corporation of India,POWERGRID,Power & Utilities,False
+70,Tata Power Company,TATAPOWER,Power & Utilities,False
+71,Adani Green Energy,ADANIGREEN,Power & Utilities,False
+72,Adani Power,ADANIPOWER,Power & Utilities,False
+73,Torrent Power,TORNTPOWER,Power & Utilities,False
+74,NHPC,NHPC,Power & Utilities,False
+75,JSW Energy,JSWENERGY,Power & Utilities,False
+76,UltraTech Cement,ULTRACEMCO,Cement & Construction,False
+77,Grasim Industries,GRASIM,Cement & Construction,False
+78,Ambuja Cements,AMBUJACEM,Cement & Construction,False
+79,Shree Cement,SHREECEM,Cement & Construction,False
+80,ACC,ACC,Cement & Construction,False
+81,Larsen & Toubro,LT,Cement & Construction,False
+82,DLF,DLF,Cement & Construction,False
+83,Godrej Properties,GODREJPROP,Cement & Construction,False
+84,Adani Ports and SEZ,ADANIPORTS,Cement & Construction,False
+85,Bharti Airtel,BHARTIARTL,Consumer & Telecom,False
+86,Vodafone Idea,IDEA,Consumer & Telecom,False
+87,Indus Towers,INDUSTOWER,Consumer & Telecom,False
+88,Titan Company,TITAN,Consumer & Telecom,False
+89,Asian Paints,ASIANPAINT,Consumer & Telecom,False
+90,Trent,TRENT,Consumer & Telecom,False
+91,Avenue Supermarts,DMART,Consumer & Telecom,False
+92,Zomato,ZOMATO,Consumer & Telecom,False

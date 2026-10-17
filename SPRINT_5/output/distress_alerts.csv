@@ -1,0 +1,12 @@
+company_id,ticker,company_name,sector,latest_year,cfo_value,cff_value,latest_net_profit
+10,ICICIBANK,ICICI Bank,Banking,2025,-8635.7,15359.7,-5264.9
+72,ADANIPOWER,Adani Power,Power & Utilities,2025,-5202.0,4318.3,5733.0
+19,BAJFINANCE,Bajaj Finance,Financial Services,2025,-4206.9,21299.2,-4040.5
+46,VEDL,Vedanta,Metals & Mining,2025,-2175.3,3356.9,2461.5
+79,SHREECEM,Shree Cement,Cement & Construction,2025,-1459.8,1341.9,-1495.2
+30,IOC,Indian Oil Corporation,Oil & Gas,2025,-1227.1,832.6,-951.1
+70,TATAPOWER,Tata Power Company,Power & Utilities,2025,-1221.0,844.9,1779.0
+86,IDEA,Vodafone Idea,Consumer & Telecom,2025,-664.5,1275.4,-2327.6
+82,DLF,DLF,Cement & Construction,2025,-420.4,818.6,-1024.5
+49,SAIL,Steel Authority of India,Metals & Mining,2025,-298.0,1522.2,-813.7
+74,NHPC,NHPC,Power & Utilities,2025,-25.4,3351.4,-432.5

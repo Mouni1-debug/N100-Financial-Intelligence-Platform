@@ -1,0 +1,384 @@
+company_id,ticker,company_name,sector,from_year,to_year,from_pattern,to_pattern,moved_to_distress
+72,ADANIPOWER,Adani Power,Power & Utilities,2024,2025,Reinvestor,Distress Signal,True
+58,ASHOKLEY,Ashok Leyland,Automobiles,2024,2025,Aggressive Expander,Cash Accumulator,False
+40,AUROPHARMA,Aurobindo Pharma,Pharma,2024,2025,Aggressive Expander,Reinvestor,False
+13,AXISBANK,Axis Bank,Banking,2024,2025,Aggressive Expander,Reinvestor,False
+59,BOSCHLTD,Bosch,Automobiles,2024,2025,Aggressive Expander,Reinvestor,False
+29,BPCL,Bharat Petroleum,Oil & Gas,2024,2025,Reinvestor,Asset Monetizer,False
+63,BRITANNIA,Britannia Industries,FMCG,2024,2025,Reinvestor,Cash Accumulator,False
+23,CHOLAFIN,Cholamandalam Investment,Financial Services,2024,2025,Reinvestor,Asset Monetizer,False
+37,CIPLA,Cipla,Pharma,2024,2025,Reinvestor,Cash Accumulator,False
+8,COFORGE,Coforge,IT,2024,2025,Reinvestor,Aggressive Expander,False
+67,COLPAL,Colgate-Palmolive (India),FMCG,2024,2025,Reinvestor,Aggressive Expander,False
+64,DABUR,Dabur India,FMCG,2024,2025,Reinvestor,Aggressive Expander,False
+38,DIVISLAB,Divi's Laboratories,Pharma,2024,2025,Reinvestor,Asset Monetizer,False
+82,DLF,DLF,Cement & Construction,2024,2025,Capital Raiser,Distress Signal,True
+55,EICHERMOT,Eicher Motors,Automobiles,2024,2025,Aggressive Expander,Reinvestor,False
+31,GAIL,GAIL (India),Oil & Gas,2024,2025,Reinvestor,Aggressive Expander,False
+83,GODREJPROP,Godrej Properties,Cement & Construction,2024,2025,Aggressive Expander,Reinvestor,False
+4,HCLTECH,HCL Technologies,IT,2024,2025,Asset Monetizer,Reinvestor,False
+9,HDFCBANK,HDFC Bank,Banking,2024,2025,Reinvestor,Asset Monetizer,False
+45,HINDALCO,Hindalco Industries,Metals & Mining,2024,2025,Aggressive Expander,Reinvestor,False
+32,HINDPETRO,Hindustan Petroleum,Oil & Gas,2024,2025,Reinvestor,Asset Monetizer,False
+60,HINDUNILVR,Hindustan Unilever,FMCG,2024,2025,Reinvestor,Asset Monetizer,False
+86,IDEA,Vodafone Idea,Consumer & Telecom,2024,2025,Asset Monetizer,Distress Signal,True
+14,INDUSINDBK,IndusInd Bank,Banking,2024,2025,Asset Monetizer,Reinvestor,False
+87,INDUSTOWER,Indus Towers,Consumer & Telecom,2024,2025,Asset Monetizer,Reinvestor,False
+75,JSWENERGY,JSW Energy,Power & Utilities,2024,2025,Asset Monetizer,Reinvestor,False
+44,JSWSTEEL,JSW Steel,Metals & Mining,2024,2025,Aggressive Expander,Cash Accumulator,False
+6,LTIM,LTIMindtree,IT,2024,2025,Aggressive Expander,Reinvestor,False
+52,M&M,Mahindra & Mahindra,Automobiles,2024,2025,Reinvestor,Aggressive Expander,False
+74,NHPC,NHPC,Power & Utilities,2024,2025,Aggressive Expander,Capital Raiser,False
+48,NMDC,NMDC,Metals & Mining,2024,2025,Aggressive Expander,Asset Monetizer,False
+68,NTPC,NTPC,Power & Utilities,2024,2025,Reinvestor,Aggressive Expander,False
+34,OIL,Oil India,Oil & Gas,2024,2025,Reinvestor,Asset Monetizer,False
+28,ONGC,Oil and Natural Gas Corporation,Oil & Gas,2024,2025,Reinvestor,Asset Monetizer,False
+16,PNB,Punjab National Bank,Banking,2024,2025,Reinvestor,Cash Accumulator,False
+69,POWERGRID,Power Grid Corporation of India,Power & Utilities,2024,2025,Reinvestor,Asset Monetizer,False
+27,RELIANCE,Reliance Industries,Oil & Gas,2024,2025,Aggressive Expander,Reinvestor,False
+49,SAIL,Steel Authority of India,Metals & Mining,2024,2025,Aggressive Expander,Capital Raiser,False
+11,SBIN,State Bank of India,Banking,2024,2025,Aggressive Expander,Reinvestor,False
+35,SUNPHARMA,Sun Pharmaceutical Industries,Pharma,2024,2025,Aggressive Expander,Reinvestor,False
+53,TATAMOTORS,Tata Motors,Automobiles,2024,2025,Reinvestor,Aggressive Expander,False
+70,TATAPOWER,Tata Power Company,Power & Utilities,2024,2025,Reinvestor,Capital Raiser,False
+88,TITAN,Titan Company,Consumer & Telecom,2024,2025,Reinvestor,Aggressive Expander,False
+41,TORNTPHARM,Torrent Pharmaceuticals,Pharma,2024,2025,Asset Monetizer,Aggressive Expander,False
+73,TORNTPOWER,Torrent Power,Power & Utilities,2024,2025,Asset Monetizer,Reinvestor,False
+57,TVSMOTOR,TVS Motor Company,Automobiles,2024,2025,Aggressive Expander,Reinvestor,False
+46,VEDL,Vedanta,Metals & Mining,2024,2025,Reinvestor,Distress Signal,True
+92,ZOMATO,Zomato,Consumer & Telecom,2024,2025,Asset Monetizer,Reinvestor,False
+40,AUROPHARMA,Aurobindo Pharma,Pharma,2023,2024,Reinvestor,Aggressive Expander,False
+13,AXISBANK,Axis Bank,Banking,2023,2024,Reinvestor,Aggressive Expander,False
+54,BAJAJ-AUTO,Bajaj Auto,Automobiles,2023,2024,Asset Monetizer,Reinvestor,False
+63,BRITANNIA,Britannia Industries,FMCG,2023,2024,Cash Accumulator,Reinvestor,False
+47,COALINDIA,Coal India,Metals & Mining,2023,2024,Aggressive Expander,Reinvestor,False
+82,DLF,DLF,Cement & Construction,2023,2024,Aggressive Expander,Capital Raiser,False
+83,GODREJPROP,Godrej Properties,Cement & Construction,2023,2024,Reinvestor,Aggressive Expander,False
+77,GRASIM,Grasim Industries,Cement & Construction,2023,2024,Aggressive Expander,Reinvestor,False
+56,HEROMOTOCO,Hero MotoCorp,Automobiles,2023,2024,Aggressive Expander,Reinvestor,False
+60,HINDUNILVR,Hindustan Unilever,FMCG,2023,2024,Aggressive Expander,Reinvestor,False
+26,ICICIGI,ICICI Lombard General Insurance,Financial Services,2023,2024,Aggressive Expander,Reinvestor,False
+86,IDEA,Vodafone Idea,Consumer & Telecom,2023,2024,Reinvestor,Asset Monetizer,False
+14,INDUSINDBK,IndusInd Bank,Banking,2023,2024,Reinvestor,Asset Monetizer,False
+87,INDUSTOWER,Indus Towers,Consumer & Telecom,2023,2024,Reinvestor,Asset Monetizer,False
+2,INFY,Infosys,IT,2023,2024,Asset Monetizer,Reinvestor,False
+30,IOC,Indian Oil Corporation,Oil & Gas,2023,2024,Distress Signal,Capital Raiser,False
+50,JINDALSTEL,Jindal Steel & Power,Metals & Mining,2023,2024,Asset Monetizer,Reinvestor,False
+75,JSWENERGY,JSW Energy,Power & Utilities,2023,2024,Reinvestor,Asset Monetizer,False
+44,JSWSTEEL,JSW Steel,Metals & Mining,2023,2024,Reinvestor,Aggressive Expander,False
+81,LT,Larsen & Toubro,Cement & Construction,2023,2024,Reinvestor,Aggressive Expander,False
+6,LTIM,LTIMindtree,IT,2023,2024,Reinvestor,Aggressive Expander,False
+39,LUPIN,Lupin,Pharma,2023,2024,Aggressive Expander,Reinvestor,False
+52,M&M,Mahindra & Mahindra,Automobiles,2023,2024,Asset Monetizer,Reinvestor,False
+66,MARICO,Marico,FMCG,2023,2024,Aggressive Expander,Reinvestor,False
+48,NMDC,NMDC,Metals & Mining,2023,2024,Reinvestor,Aggressive Expander,False
+7,PERSISTENT,Persistent Systems,IT,2023,2024,Aggressive Expander,Reinvestor,False
+33,PETRONET,Petronet LNG,Oil & Gas,2023,2024,Aggressive Expander,Asset Monetizer,False
+27,RELIANCE,Reliance Industries,Oil & Gas,2023,2024,Asset Monetizer,Aggressive Expander,False
+11,SBIN,State Bank of India,Banking,2023,2024,Cash Accumulator,Aggressive Expander,False
+79,SHREECEM,Shree Cement,Cement & Construction,2023,2024,Aggressive Expander,Capital Raiser,False
+35,SUNPHARMA,Sun Pharmaceutical Industries,Pharma,2023,2024,Reinvestor,Aggressive Expander,False
+43,TATASTEEL,Tata Steel,Metals & Mining,2023,2024,Aggressive Expander,Reinvestor,False
+73,TORNTPOWER,Torrent Power,Power & Utilities,2023,2024,Reinvestor,Asset Monetizer,False
+90,TRENT,Trent,Consumer & Telecom,2023,2024,Aggressive Expander,Reinvestor,False
+76,ULTRACEMCO,UltraTech Cement,Cement & Construction,2023,2024,Reinvestor,Aggressive Expander,False
+71,ADANIGREEN,Adani Green Energy,Power & Utilities,2022,2023,Aggressive Expander,Reinvestor,False
+58,ASHOKLEY,Ashok Leyland,Automobiles,2022,2023,Reinvestor,Aggressive Expander,False
+89,ASIANPAINT,Asian Paints,Consumer & Telecom,2022,2023,Reinvestor,Aggressive Expander,False
+54,BAJAJ-AUTO,Bajaj Auto,Automobiles,2022,2023,Reinvestor,Asset Monetizer,False
+15,BANKBARODA,Bank of Baroda,Banking,2022,2023,Reinvestor,Asset Monetizer,False
+59,BOSCHLTD,Bosch,Automobiles,2022,2023,Reinvestor,Aggressive Expander,False
+29,BPCL,Bharat Petroleum,Oil & Gas,2022,2023,Asset Monetizer,Reinvestor,False
+63,BRITANNIA,Britannia Industries,FMCG,2022,2023,Reinvestor,Cash Accumulator,False
+37,CIPLA,Cipla,Pharma,2022,2023,Aggressive Expander,Reinvestor,False
+47,COALINDIA,Coal India,Metals & Mining,2022,2023,Cash Accumulator,Aggressive Expander,False
+67,COLPAL,Colgate-Palmolive (India),FMCG,2022,2023,Aggressive Expander,Reinvestor,False
+36,DRREDDY,Dr. Reddy's Laboratories,Pharma,2022,2023,Asset Monetizer,Reinvestor,False
+31,GAIL,GAIL (India),Oil & Gas,2022,2023,Aggressive Expander,Reinvestor,False
+77,GRASIM,Grasim Industries,Cement & Construction,2022,2023,Reinvestor,Aggressive Expander,False
+4,HCLTECH,HCL Technologies,IT,2022,2023,Reinvestor,Asset Monetizer,False
+56,HEROMOTOCO,Hero MotoCorp,Automobiles,2022,2023,Reinvestor,Aggressive Expander,False
+45,HINDALCO,Hindalco Industries,Metals & Mining,2022,2023,Reinvestor,Aggressive Expander,False
+32,HINDPETRO,Hindustan Petroleum,Oil & Gas,2022,2023,Asset Monetizer,Reinvestor,False
+60,HINDUNILVR,Hindustan Unilever,FMCG,2022,2023,Reinvestor,Aggressive Expander,False
+10,ICICIBANK,ICICI Bank,Banking,2022,2023,Distress Signal,Capital Raiser,False
+26,ICICIGI,ICICI Lombard General Insurance,Financial Services,2022,2023,Reinvestor,Aggressive Expander,False
+87,INDUSTOWER,Indus Towers,Consumer & Telecom,2022,2023,Asset Monetizer,Reinvestor,False
+30,IOC,Indian Oil Corporation,Oil & Gas,2022,2023,Capital Raiser,Distress Signal,True
+61,ITC,ITC,FMCG,2022,2023,Aggressive Expander,Reinvestor,False
+50,JINDALSTEL,Jindal Steel & Power,Metals & Mining,2022,2023,Reinvestor,Asset Monetizer,False
+6,LTIM,LTIMindtree,IT,2022,2023,Aggressive Expander,Reinvestor,False
+52,M&M,Mahindra & Mahindra,Automobiles,2022,2023,Aggressive Expander,Asset Monetizer,False
+66,MARICO,Marico,FMCG,2022,2023,Asset Monetizer,Aggressive Expander,False
+51,MARUTI,Maruti Suzuki India,Automobiles,2022,2023,Cash Accumulator,Reinvestor,False
+25,MUTHOOTFIN,Muthoot Finance,Financial Services,2022,2023,Cash Accumulator,Aggressive Expander,False
+34,OIL,Oil India,Oil & Gas,2022,2023,Aggressive Expander,Reinvestor,False
+28,ONGC,Oil and Natural Gas Corporation,Oil & Gas,2022,2023,Cash Accumulator,Reinvestor,False
+7,PERSISTENT,Persistent Systems,IT,2022,2023,Reinvestor,Aggressive Expander,False
+33,PETRONET,Petronet LNG,Oil & Gas,2022,2023,Reinvestor,Aggressive Expander,False
+27,RELIANCE,Reliance Industries,Oil & Gas,2022,2023,Reinvestor,Asset Monetizer,False
+11,SBIN,State Bank of India,Banking,2022,2023,Aggressive Expander,Cash Accumulator,False
+24,SHRIRAMFIN,Shriram Finance,Financial Services,2022,2023,Reinvestor,Aggressive Expander,False
+35,SUNPHARMA,Sun Pharmaceutical Industries,Pharma,2022,2023,Asset Monetizer,Reinvestor,False
+53,TATAMOTORS,Tata Motors,Automobiles,2022,2023,Asset Monetizer,Reinvestor,False
+43,TATASTEEL,Tata Steel,Metals & Mining,2022,2023,Reinvestor,Aggressive Expander,False
+5,TECHM,Tech Mahindra,IT,2022,2023,Cash Accumulator,Reinvestor,False
+88,TITAN,Titan Company,Consumer & Telecom,2022,2023,Aggressive Expander,Reinvestor,False
+41,TORNTPHARM,Torrent Pharmaceuticals,Pharma,2022,2023,Reinvestor,Asset Monetizer,False
+90,TRENT,Trent,Consumer & Telecom,2022,2023,Reinvestor,Aggressive Expander,False
+42,ZYDUSLIFE,Zydus Lifesciences,Pharma,2022,2023,Aggressive Expander,Reinvestor,False
+80,ACC,ACC,Cement & Construction,2021,2022,Aggressive Expander,Reinvestor,False
+71,ADANIGREEN,Adani Green Energy,Power & Utilities,2021,2022,Reinvestor,Aggressive Expander,False
+72,ADANIPOWER,Adani Power,Power & Utilities,2021,2022,Aggressive Expander,Reinvestor,False
+78,AMBUJACEM,Ambuja Cements,Cement & Construction,2021,2022,Reinvestor,Aggressive Expander,False
+89,ASIANPAINT,Asian Paints,Consumer & Telecom,2021,2022,Aggressive Expander,Reinvestor,False
+54,BAJAJ-AUTO,Bajaj Auto,Automobiles,2021,2022,Asset Monetizer,Reinvestor,False
+15,BANKBARODA,Bank of Baroda,Banking,2021,2022,Asset Monetizer,Reinvestor,False
+85,BHARTIARTL,Bharti Airtel,Consumer & Telecom,2021,2022,Asset Monetizer,Reinvestor,False
+29,BPCL,Bharat Petroleum,Oil & Gas,2021,2022,Reinvestor,Asset Monetizer,False
+37,CIPLA,Cipla,Pharma,2021,2022,Reinvestor,Aggressive Expander,False
+47,COALINDIA,Coal India,Metals & Mining,2021,2022,Reinvestor,Cash Accumulator,False
+67,COLPAL,Colgate-Palmolive (India),FMCG,2021,2022,Asset Monetizer,Aggressive Expander,False
+82,DLF,DLF,Cement & Construction,2021,2022,Cash Accumulator,Aggressive Expander,False
+91,DMART,Avenue Supermarts,Consumer & Telecom,2021,2022,Aggressive Expander,Reinvestor,False
+36,DRREDDY,Dr. Reddy's Laboratories,Pharma,2021,2022,Reinvestor,Asset Monetizer,False
+55,EICHERMOT,Eicher Motors,Automobiles,2021,2022,Reinvestor,Aggressive Expander,False
+31,GAIL,GAIL (India),Oil & Gas,2021,2022,Reinvestor,Aggressive Expander,False
+4,HCLTECH,HCL Technologies,IT,2021,2022,Aggressive Expander,Reinvestor,False
+32,HINDPETRO,Hindustan Petroleum,Oil & Gas,2021,2022,Reinvestor,Asset Monetizer,False
+10,ICICIBANK,ICICI Bank,Banking,2021,2022,Capital Raiser,Distress Signal,True
+86,IDEA,Vodafone Idea,Consumer & Telecom,2021,2022,Cash Accumulator,Reinvestor,False
+87,INDUSTOWER,Indus Towers,Consumer & Telecom,2021,2022,Reinvestor,Asset Monetizer,False
+2,INFY,Infosys,IT,2021,2022,Reinvestor,Asset Monetizer,False
+30,IOC,Indian Oil Corporation,Oil & Gas,2021,2022,Aggressive Expander,Capital Raiser,False
+61,ITC,ITC,FMCG,2021,2022,Reinvestor,Aggressive Expander,False
+50,JINDALSTEL,Jindal Steel & Power,Metals & Mining,2021,2022,Cash Accumulator,Reinvestor,False
+39,LUPIN,Lupin,Pharma,2021,2022,Asset Monetizer,Aggressive Expander,False
+52,M&M,Mahindra & Mahindra,Automobiles,2021,2022,Reinvestor,Aggressive Expander,False
+66,MARICO,Marico,FMCG,2021,2022,Reinvestor,Asset Monetizer,False
+51,MARUTI,Maruti Suzuki India,Automobiles,2021,2022,Reinvestor,Cash Accumulator,False
+25,MUTHOOTFIN,Muthoot Finance,Financial Services,2021,2022,Aggressive Expander,Cash Accumulator,False
+74,NHPC,NHPC,Power & Utilities,2021,2022,Cash Accumulator,Aggressive Expander,False
+34,OIL,Oil India,Oil & Gas,2021,2022,Reinvestor,Aggressive Expander,False
+28,ONGC,Oil and Natural Gas Corporation,Oil & Gas,2021,2022,Reinvestor,Cash Accumulator,False
+27,RELIANCE,Reliance Industries,Oil & Gas,2021,2022,Aggressive Expander,Reinvestor,False
+24,SHRIRAMFIN,Shriram Finance,Financial Services,2021,2022,Aggressive Expander,Reinvestor,False
+35,SUNPHARMA,Sun Pharmaceutical Industries,Pharma,2021,2022,Reinvestor,Asset Monetizer,False
+53,TATAMOTORS,Tata Motors,Automobiles,2021,2022,Reinvestor,Asset Monetizer,False
+5,TECHM,Tech Mahindra,IT,2021,2022,Asset Monetizer,Cash Accumulator,False
+88,TITAN,Titan Company,Consumer & Telecom,2021,2022,Reinvestor,Aggressive Expander,False
+57,TVSMOTOR,TVS Motor Company,Automobiles,2021,2022,Reinvestor,Aggressive Expander,False
+42,ZYDUSLIFE,Zydus Lifesciences,Pharma,2021,2022,Reinvestor,Aggressive Expander,False
+80,ACC,ACC,Cement & Construction,2020,2021,Reinvestor,Aggressive Expander,False
+72,ADANIPOWER,Adani Power,Power & Utilities,2020,2021,Reinvestor,Aggressive Expander,False
+78,AMBUJACEM,Ambuja Cements,Cement & Construction,2020,2021,Aggressive Expander,Reinvestor,False
+58,ASHOKLEY,Ashok Leyland,Automobiles,2020,2021,Aggressive Expander,Reinvestor,False
+89,ASIANPAINT,Asian Paints,Consumer & Telecom,2020,2021,Reinvestor,Aggressive Expander,False
+19,BAJFINANCE,Bajaj Finance,Financial Services,2020,2021,Aggressive Expander,Capital Raiser,False
+15,BANKBARODA,Bank of Baroda,Banking,2020,2021,Reinvestor,Asset Monetizer,False
+85,BHARTIARTL,Bharti Airtel,Consumer & Telecom,2020,2021,Reinvestor,Asset Monetizer,False
+23,CHOLAFIN,Cholamandalam Investment,Financial Services,2020,2021,Cash Accumulator,Reinvestor,False
+47,COALINDIA,Coal India,Metals & Mining,2020,2021,Aggressive Expander,Reinvestor,False
+67,COLPAL,Colgate-Palmolive (India),FMCG,2020,2021,Reinvestor,Asset Monetizer,False
+82,DLF,DLF,Cement & Construction,2020,2021,Aggressive Expander,Cash Accumulator,False
+55,EICHERMOT,Eicher Motors,Automobiles,2020,2021,Aggressive Expander,Reinvestor,False
+18,FEDERALBNK,Federal Bank,Banking,2020,2021,Cash Accumulator,Reinvestor,False
+21,HDFCLIFE,HDFC Life Insurance,Financial Services,2020,2021,Aggressive Expander,Reinvestor,False
+86,IDEA,Vodafone Idea,Consumer & Telecom,2020,2021,Aggressive Expander,Cash Accumulator,False
+61,ITC,ITC,FMCG,2020,2021,Aggressive Expander,Reinvestor,False
+50,JINDALSTEL,Jindal Steel & Power,Metals & Mining,2020,2021,Reinvestor,Cash Accumulator,False
+75,JSWENERGY,JSW Energy,Power & Utilities,2020,2021,Aggressive Expander,Reinvestor,False
+44,JSWSTEEL,JSW Steel,Metals & Mining,2020,2021,Cash Accumulator,Reinvestor,False
+12,KOTAKBANK,Kotak Mahindra Bank,Banking,2020,2021,Asset Monetizer,Reinvestor,False
+6,LTIM,LTIMindtree,IT,2020,2021,Reinvestor,Aggressive Expander,False
+39,LUPIN,Lupin,Pharma,2020,2021,Reinvestor,Asset Monetizer,False
+74,NHPC,NHPC,Power & Utilities,2020,2021,Aggressive Expander,Cash Accumulator,False
+48,NMDC,NMDC,Metals & Mining,2020,2021,Aggressive Expander,Reinvestor,False
+28,ONGC,Oil and Natural Gas Corporation,Oil & Gas,2020,2021,Aggressive Expander,Reinvestor,False
+11,SBIN,State Bank of India,Banking,2020,2021,Reinvestor,Aggressive Expander,False
+24,SHRIRAMFIN,Shriram Finance,Financial Services,2020,2021,Cash Accumulator,Aggressive Expander,False
+35,SUNPHARMA,Sun Pharmaceutical Industries,Pharma,2020,2021,Aggressive Expander,Reinvestor,False
+5,TECHM,Tech Mahindra,IT,2020,2021,Reinvestor,Asset Monetizer,False
+76,ULTRACEMCO,UltraTech Cement,Cement & Construction,2020,2021,Aggressive Expander,Reinvestor,False
+46,VEDL,Vedanta,Metals & Mining,2020,2021,Asset Monetizer,Reinvestor,False
+42,ZYDUSLIFE,Zydus Lifesciences,Pharma,2020,2021,Aggressive Expander,Reinvestor,False
+13,AXISBANK,Axis Bank,Banking,2019,2020,Aggressive Expander,Reinvestor,False
+54,BAJAJ-AUTO,Bajaj Auto,Automobiles,2019,2020,Reinvestor,Asset Monetizer,False
+19,BAJFINANCE,Bajaj Finance,Financial Services,2019,2020,Capital Raiser,Aggressive Expander,False
+15,BANKBARODA,Bank of Baroda,Banking,2019,2020,Aggressive Expander,Reinvestor,False
+59,BOSCHLTD,Bosch,Automobiles,2019,2020,Asset Monetizer,Reinvestor,False
+29,BPCL,Bharat Petroleum,Oil & Gas,2019,2020,Aggressive Expander,Reinvestor,False
+63,BRITANNIA,Britannia Industries,FMCG,2019,2020,Aggressive Expander,Reinvestor,False
+23,CHOLAFIN,Cholamandalam Investment,Financial Services,2019,2020,Asset Monetizer,Cash Accumulator,False
+37,CIPLA,Cipla,Pharma,2019,2020,Aggressive Expander,Reinvestor,False
+47,COALINDIA,Coal India,Metals & Mining,2019,2020,Reinvestor,Aggressive Expander,False
+18,FEDERALBNK,Federal Bank,Banking,2019,2020,Reinvestor,Cash Accumulator,False
+83,GODREJPROP,Godrej Properties,Cement & Construction,2019,2020,Asset Monetizer,Reinvestor,False
+4,HCLTECH,HCL Technologies,IT,2019,2020,Reinvestor,Aggressive Expander,False
+9,HDFCBANK,HDFC Bank,Banking,2019,2020,Aggressive Expander,Reinvestor,False
+56,HEROMOTOCO,Hero MotoCorp,Automobiles,2019,2020,Asset Monetizer,Reinvestor,False
+45,HINDALCO,Hindalco Industries,Metals & Mining,2019,2020,Asset Monetizer,Reinvestor,False
+32,HINDPETRO,Hindustan Petroleum,Oil & Gas,2019,2020,Aggressive Expander,Reinvestor,False
+26,ICICIGI,ICICI Lombard General Insurance,Financial Services,2019,2020,Aggressive Expander,Reinvestor,False
+86,IDEA,Vodafone Idea,Consumer & Telecom,2019,2020,Reinvestor,Aggressive Expander,False
+61,ITC,ITC,FMCG,2019,2020,Reinvestor,Aggressive Expander,False
+50,JINDALSTEL,Jindal Steel & Power,Metals & Mining,2019,2020,Aggressive Expander,Reinvestor,False
+75,JSWENERGY,JSW Energy,Power & Utilities,2019,2020,Reinvestor,Aggressive Expander,False
+44,JSWSTEEL,JSW Steel,Metals & Mining,2019,2020,Reinvestor,Cash Accumulator,False
+12,KOTAKBANK,Kotak Mahindra Bank,Banking,2019,2020,Reinvestor,Asset Monetizer,False
+81,LT,Larsen & Toubro,Cement & Construction,2019,2020,Aggressive Expander,Reinvestor,False
+6,LTIM,LTIMindtree,IT,2019,2020,Aggressive Expander,Reinvestor,False
+51,MARUTI,Maruti Suzuki India,Automobiles,2019,2020,Asset Monetizer,Reinvestor,False
+28,ONGC,Oil and Natural Gas Corporation,Oil & Gas,2019,2020,Reinvestor,Aggressive Expander,False
+69,POWERGRID,Power Grid Corporation of India,Power & Utilities,2019,2020,Aggressive Expander,Reinvestor,False
+22,SBILIFE,SBI Life Insurance,Financial Services,2019,2020,Asset Monetizer,Reinvestor,False
+11,SBIN,State Bank of India,Banking,2019,2020,Cash Accumulator,Reinvestor,False
+24,SHRIRAMFIN,Shriram Finance,Financial Services,2019,2020,Aggressive Expander,Cash Accumulator,False
+1,TCS,Tata Consultancy Services,IT,2019,2020,Asset Monetizer,Reinvestor,False
+5,TECHM,Tech Mahindra,IT,2019,2020,Cash Accumulator,Reinvestor,False
+46,VEDL,Vedanta,Metals & Mining,2019,2020,Reinvestor,Asset Monetizer,False
+3,WIPRO,Wipro,IT,2019,2020,Asset Monetizer,Reinvestor,False
+42,ZYDUSLIFE,Zydus Lifesciences,Pharma,2019,2020,Reinvestor,Aggressive Expander,False
+72,ADANIPOWER,Adani Power,Power & Utilities,2018,2019,Aggressive Expander,Reinvestor,False
+89,ASIANPAINT,Asian Paints,Consumer & Telecom,2018,2019,Aggressive Expander,Reinvestor,False
+40,AUROPHARMA,Aurobindo Pharma,Pharma,2018,2019,Aggressive Expander,Reinvestor,False
+13,AXISBANK,Axis Bank,Banking,2018,2019,Reinvestor,Aggressive Expander,False
+19,BAJFINANCE,Bajaj Finance,Financial Services,2018,2019,Reinvestor,Capital Raiser,False
+15,BANKBARODA,Bank of Baroda,Banking,2018,2019,Reinvestor,Aggressive Expander,False
+59,BOSCHLTD,Bosch,Automobiles,2018,2019,Reinvestor,Asset Monetizer,False
+29,BPCL,Bharat Petroleum,Oil & Gas,2018,2019,Reinvestor,Aggressive Expander,False
+63,BRITANNIA,Britannia Industries,FMCG,2018,2019,Reinvestor,Aggressive Expander,False
+23,CHOLAFIN,Cholamandalam Investment,Financial Services,2018,2019,Reinvestor,Asset Monetizer,False
+37,CIPLA,Cipla,Pharma,2018,2019,Reinvestor,Aggressive Expander,False
+38,DIVISLAB,Divi's Laboratories,Pharma,2018,2019,Aggressive Expander,Reinvestor,False
+82,DLF,DLF,Cement & Construction,2018,2019,Reinvestor,Aggressive Expander,False
+91,DMART,Avenue Supermarts,Consumer & Telecom,2018,2019,Reinvestor,Aggressive Expander,False
+65,GODREJCP,Godrej Consumer Products,FMCG,2018,2019,Aggressive Expander,Reinvestor,False
+83,GODREJPROP,Godrej Properties,Cement & Construction,2018,2019,Reinvestor,Asset Monetizer,False
+4,HCLTECH,HCL Technologies,IT,2018,2019,Aggressive Expander,Reinvestor,False
+21,HDFCLIFE,HDFC Life Insurance,Financial Services,2018,2019,Reinvestor,Aggressive Expander,False
+56,HEROMOTOCO,Hero MotoCorp,Automobiles,2018,2019,Aggressive Expander,Asset Monetizer,False
+45,HINDALCO,Hindalco Industries,Metals & Mining,2018,2019,Reinvestor,Asset Monetizer,False
+26,ICICIGI,ICICI Lombard General Insurance,Financial Services,2018,2019,Reinvestor,Aggressive Expander,False
+14,INDUSINDBK,IndusInd Bank,Banking,2018,2019,Asset Monetizer,Reinvestor,False
+30,IOC,Indian Oil Corporation,Oil & Gas,2018,2019,Cash Accumulator,Aggressive Expander,False
+61,ITC,ITC,FMCG,2018,2019,Aggressive Expander,Reinvestor,False
+50,JINDALSTEL,Jindal Steel & Power,Metals & Mining,2018,2019,Reinvestor,Aggressive Expander,False
+12,KOTAKBANK,Kotak Mahindra Bank,Banking,2018,2019,Cash Accumulator,Reinvestor,False
+81,LT,Larsen & Toubro,Cement & Construction,2018,2019,Reinvestor,Aggressive Expander,False
+6,LTIM,LTIMindtree,IT,2018,2019,Reinvestor,Aggressive Expander,False
+51,MARUTI,Maruti Suzuki India,Automobiles,2018,2019,Reinvestor,Asset Monetizer,False
+34,OIL,Oil India,Oil & Gas,2018,2019,Aggressive Expander,Reinvestor,False
+7,PERSISTENT,Persistent Systems,IT,2018,2019,Aggressive Expander,Reinvestor,False
+69,POWERGRID,Power Grid Corporation of India,Power & Utilities,2018,2019,Reinvestor,Aggressive Expander,False
+27,RELIANCE,Reliance Industries,Oil & Gas,2018,2019,Reinvestor,Aggressive Expander,False
+22,SBILIFE,SBI Life Insurance,Financial Services,2018,2019,Reinvestor,Asset Monetizer,False
+11,SBIN,State Bank of India,Banking,2018,2019,Aggressive Expander,Cash Accumulator,False
+24,SHRIRAMFIN,Shriram Finance,Financial Services,2018,2019,Reinvestor,Aggressive Expander,False
+35,SUNPHARMA,Sun Pharmaceutical Industries,Pharma,2018,2019,Reinvestor,Aggressive Expander,False
+70,TATAPOWER,Tata Power Company,Power & Utilities,2018,2019,Aggressive Expander,Reinvestor,False
+1,TCS,Tata Consultancy Services,IT,2018,2019,Reinvestor,Asset Monetizer,False
+5,TECHM,Tech Mahindra,IT,2018,2019,Reinvestor,Cash Accumulator,False
+41,TORNTPHARM,Torrent Pharmaceuticals,Pharma,2018,2019,Cash Accumulator,Reinvestor,False
+73,TORNTPOWER,Torrent Power,Power & Utilities,2018,2019,Aggressive Expander,Reinvestor,False
+90,TRENT,Trent,Consumer & Telecom,2018,2019,Asset Monetizer,Reinvestor,False
+76,ULTRACEMCO,UltraTech Cement,Cement & Construction,2018,2019,Reinvestor,Aggressive Expander,False
+3,WIPRO,Wipro,IT,2018,2019,Reinvestor,Asset Monetizer,False
+71,ADANIGREEN,Adani Green Energy,Power & Utilities,2017,2018,Asset Monetizer,Reinvestor,False
+72,ADANIPOWER,Adani Power,Power & Utilities,2017,2018,Reinvestor,Aggressive Expander,False
+78,AMBUJACEM,Ambuja Cements,Cement & Construction,2017,2018,Reinvestor,Aggressive Expander,False
+89,ASIANPAINT,Asian Paints,Consumer & Telecom,2017,2018,Reinvestor,Aggressive Expander,False
+40,AUROPHARMA,Aurobindo Pharma,Pharma,2017,2018,Reinvestor,Aggressive Expander,False
+13,AXISBANK,Axis Bank,Banking,2017,2018,Cash Accumulator,Reinvestor,False
+19,BAJFINANCE,Bajaj Finance,Financial Services,2017,2018,Capital Raiser,Reinvestor,False
+63,BRITANNIA,Britannia Industries,FMCG,2017,2018,Aggressive Expander,Reinvestor,False
+47,COALINDIA,Coal India,Metals & Mining,2017,2018,Aggressive Expander,Reinvestor,False
+67,COLPAL,Colgate-Palmolive (India),FMCG,2017,2018,Aggressive Expander,Reinvestor,False
+64,DABUR,Dabur India,FMCG,2017,2018,Aggressive Expander,Reinvestor,False
+82,DLF,DLF,Cement & Construction,2017,2018,Aggressive Expander,Reinvestor,False
+91,DMART,Avenue Supermarts,Consumer & Telecom,2017,2018,Aggressive Expander,Reinvestor,False
+55,EICHERMOT,Eicher Motors,Automobiles,2017,2018,Reinvestor,Aggressive Expander,False
+31,GAIL,GAIL (India),Oil & Gas,2017,2018,Asset Monetizer,Reinvestor,False
+65,GODREJCP,Godrej Consumer Products,FMCG,2017,2018,Reinvestor,Aggressive Expander,False
+83,GODREJPROP,Godrej Properties,Cement & Construction,2017,2018,Asset Monetizer,Reinvestor,False
+77,GRASIM,Grasim Industries,Cement & Construction,2017,2018,Aggressive Expander,Reinvestor,False
+4,HCLTECH,HCL Technologies,IT,2017,2018,Reinvestor,Aggressive Expander,False
+9,HDFCBANK,HDFC Bank,Banking,2017,2018,Asset Monetizer,Aggressive Expander,False
+21,HDFCLIFE,HDFC Life Insurance,Financial Services,2017,2018,Aggressive Expander,Reinvestor,False
+56,HEROMOTOCO,Hero MotoCorp,Automobiles,2017,2018,Reinvestor,Aggressive Expander,False
+32,HINDPETRO,Hindustan Petroleum,Oil & Gas,2017,2018,Reinvestor,Aggressive Expander,False
+60,HINDUNILVR,Hindustan Unilever,FMCG,2017,2018,Aggressive Expander,Reinvestor,False
+26,ICICIGI,ICICI Lombard General Insurance,Financial Services,2017,2018,Aggressive Expander,Reinvestor,False
+86,IDEA,Vodafone Idea,Consumer & Telecom,2017,2018,Asset Monetizer,Reinvestor,False
+14,INDUSINDBK,IndusInd Bank,Banking,2017,2018,Reinvestor,Asset Monetizer,False
+87,INDUSTOWER,Indus Towers,Consumer & Telecom,2017,2018,Aggressive Expander,Reinvestor,False
+30,IOC,Indian Oil Corporation,Oil & Gas,2017,2018,Aggressive Expander,Cash Accumulator,False
+61,ITC,ITC,FMCG,2017,2018,Reinvestor,Aggressive Expander,False
+75,JSWENERGY,JSW Energy,Power & Utilities,2017,2018,Aggressive Expander,Reinvestor,False
+12,KOTAKBANK,Kotak Mahindra Bank,Banking,2017,2018,Reinvestor,Cash Accumulator,False
+81,LT,Larsen & Toubro,Cement & Construction,2017,2018,Asset Monetizer,Reinvestor,False
+39,LUPIN,Lupin,Pharma,2017,2018,Asset Monetizer,Reinvestor,False
+74,NHPC,NHPC,Power & Utilities,2017,2018,Asset Monetizer,Aggressive Expander,False
+48,NMDC,NMDC,Metals & Mining,2017,2018,Reinvestor,Aggressive Expander,False
+34,OIL,Oil India,Oil & Gas,2017,2018,Reinvestor,Aggressive Expander,False
+28,ONGC,Oil and Natural Gas Corporation,Oil & Gas,2017,2018,Aggressive Expander,Reinvestor,False
+7,PERSISTENT,Persistent Systems,IT,2017,2018,Cash Accumulator,Aggressive Expander,False
+69,POWERGRID,Power Grid Corporation of India,Power & Utilities,2017,2018,Aggressive Expander,Reinvestor,False
+22,SBILIFE,SBI Life Insurance,Financial Services,2017,2018,Aggressive Expander,Reinvestor,False
+11,SBIN,State Bank of India,Banking,2017,2018,Reinvestor,Aggressive Expander,False
+24,SHRIRAMFIN,Shriram Finance,Financial Services,2017,2018,Aggressive Expander,Reinvestor,False
+35,SUNPHARMA,Sun Pharmaceutical Industries,Pharma,2017,2018,Aggressive Expander,Reinvestor,False
+70,TATAPOWER,Tata Power Company,Power & Utilities,2017,2018,Asset Monetizer,Aggressive Expander,False
+1,TCS,Tata Consultancy Services,IT,2017,2018,Cash Accumulator,Reinvestor,False
+88,TITAN,Titan Company,Consumer & Telecom,2017,2018,Aggressive Expander,Reinvestor,False
+41,TORNTPHARM,Torrent Pharmaceuticals,Pharma,2017,2018,Reinvestor,Cash Accumulator,False
+73,TORNTPOWER,Torrent Power,Power & Utilities,2017,2018,Reinvestor,Aggressive Expander,False
+90,TRENT,Trent,Consumer & Telecom,2017,2018,Reinvestor,Asset Monetizer,False
+57,TVSMOTOR,TVS Motor Company,Automobiles,2017,2018,Aggressive Expander,Reinvestor,False
+76,ULTRACEMCO,UltraTech Cement,Cement & Construction,2017,2018,Aggressive Expander,Reinvestor,False
+46,VEDL,Vedanta,Metals & Mining,2017,2018,Asset Monetizer,Reinvestor,False
+42,ZYDUSLIFE,Zydus Lifesciences,Pharma,2017,2018,Aggressive Expander,Reinvestor,False
+71,ADANIGREEN,Adani Green Energy,Power & Utilities,2016,2017,Reinvestor,Asset Monetizer,False
+58,ASHOKLEY,Ashok Leyland,Automobiles,2016,2017,Reinvestor,Aggressive Expander,False
+89,ASIANPAINT,Asian Paints,Consumer & Telecom,2016,2017,Asset Monetizer,Reinvestor,False
+13,AXISBANK,Axis Bank,Banking,2016,2017,Capital Raiser,Cash Accumulator,False
+63,BRITANNIA,Britannia Industries,FMCG,2016,2017,Reinvestor,Aggressive Expander,False
+47,COALINDIA,Coal India,Metals & Mining,2016,2017,Reinvestor,Aggressive Expander,False
+67,COLPAL,Colgate-Palmolive (India),FMCG,2016,2017,Reinvestor,Aggressive Expander,False
+64,DABUR,Dabur India,FMCG,2016,2017,Reinvestor,Aggressive Expander,False
+38,DIVISLAB,Divi's Laboratories,Pharma,2016,2017,Reinvestor,Aggressive Expander,False
+82,DLF,DLF,Cement & Construction,2016,2017,Reinvestor,Aggressive Expander,False
+91,DMART,Avenue Supermarts,Consumer & Telecom,2016,2017,Reinvestor,Aggressive Expander,False
+55,EICHERMOT,Eicher Motors,Automobiles,2016,2017,Aggressive Expander,Reinvestor,False
+31,GAIL,GAIL (India),Oil & Gas,2016,2017,Reinvestor,Asset Monetizer,False
+77,GRASIM,Grasim Industries,Cement & Construction,2016,2017,Reinvestor,Aggressive Expander,False
+9,HDFCBANK,HDFC Bank,Banking,2016,2017,Reinvestor,Asset Monetizer,False
+21,HDFCLIFE,HDFC Life Insurance,Financial Services,2016,2017,Reinvestor,Aggressive Expander,False
+45,HINDALCO,Hindalco Industries,Metals & Mining,2016,2017,Asset Monetizer,Reinvestor,False
+32,HINDPETRO,Hindustan Petroleum,Oil & Gas,2016,2017,Cash Accumulator,Reinvestor,False
+60,HINDUNILVR,Hindustan Unilever,FMCG,2016,2017,Reinvestor,Aggressive Expander,False
+10,ICICIBANK,ICICI Bank,Banking,2016,2017,Asset Liquidator,Capital Raiser,False
+86,IDEA,Vodafone Idea,Consumer & Telecom,2016,2017,Reinvestor,Asset Monetizer,False
+87,INDUSTOWER,Indus Towers,Consumer & Telecom,2016,2017,Reinvestor,Aggressive Expander,False
+2,INFY,Infosys,IT,2016,2017,Asset Monetizer,Reinvestor,False
+30,IOC,Indian Oil Corporation,Oil & Gas,2016,2017,Reinvestor,Aggressive Expander,False
+75,JSWENERGY,JSW Energy,Power & Utilities,2016,2017,Reinvestor,Aggressive Expander,False
+81,LT,Larsen & Toubro,Cement & Construction,2016,2017,Reinvestor,Asset Monetizer,False
+39,LUPIN,Lupin,Pharma,2016,2017,Reinvestor,Asset Monetizer,False
+25,MUTHOOTFIN,Muthoot Finance,Financial Services,2016,2017,Reinvestor,Aggressive Expander,False
+74,NHPC,NHPC,Power & Utilities,2016,2017,Reinvestor,Asset Monetizer,False
+34,OIL,Oil India,Oil & Gas,2016,2017,Cash Accumulator,Reinvestor,False
+28,ONGC,Oil and Natural Gas Corporation,Oil & Gas,2016,2017,Reinvestor,Aggressive Expander,False
+7,PERSISTENT,Persistent Systems,IT,2016,2017,Aggressive Expander,Cash Accumulator,False
+69,POWERGRID,Power Grid Corporation of India,Power & Utilities,2016,2017,Reinvestor,Aggressive Expander,False
+49,SAIL,Steel Authority of India,Metals & Mining,2016,2017,Reinvestor,Aggressive Expander,False
+22,SBILIFE,SBI Life Insurance,Financial Services,2016,2017,Reinvestor,Aggressive Expander,False
+79,SHREECEM,Shree Cement,Cement & Construction,2016,2017,Reinvestor,Aggressive Expander,False
+35,SUNPHARMA,Sun Pharmaceutical Industries,Pharma,2016,2017,Reinvestor,Aggressive Expander,False
+70,TATAPOWER,Tata Power Company,Power & Utilities,2016,2017,Reinvestor,Asset Monetizer,False
+1,TCS,Tata Consultancy Services,IT,2016,2017,Asset Monetizer,Cash Accumulator,False
+88,TITAN,Titan Company,Consumer & Telecom,2016,2017,Reinvestor,Aggressive Expander,False
+57,TVSMOTOR,TVS Motor Company,Automobiles,2016,2017,Reinvestor,Aggressive Expander,False
+76,ULTRACEMCO,UltraTech Cement,Cement & Construction,2016,2017,Reinvestor,Aggressive Expander,False
+46,VEDL,Vedanta,Metals & Mining,2016,2017,Reinvestor,Asset Monetizer,False
+42,ZYDUSLIFE,Zydus Lifesciences,Pharma,2016,2017,Reinvestor,Aggressive Expander,False

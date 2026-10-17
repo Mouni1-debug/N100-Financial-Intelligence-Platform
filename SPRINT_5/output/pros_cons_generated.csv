@@ -1,0 +1,468 @@
+company_id,type,rule_id,text,confidence_pct
+1,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+1,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+1,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,68.2
+1,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,67.7
+1,con,CON_12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,60.7
+2,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+2,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+2,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,96.6
+2,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,83.8
+2,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,72.9
+2,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,63.9
+2,con,CON_FB,"5-year revenue CAGR of 13.6% is the closest metric to the sector median of 11.7%, with no standout weakness",61.0
+3,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+3,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+3,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,68.0
+3,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,63.2
+3,con,CON_FB,5-year revenue CAGR of 8.0% is below the sector median of 11.7%,61.0
+4,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+4,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+4,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+4,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,76.2
+4,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,64.3
+4,con,CON_FB,"5-year revenue CAGR of 13.6% is the closest metric to the sector median of 11.7%, with no standout weakness",61.0
+5,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+5,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,84.4
+5,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+5,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,83.0
+5,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,72.0
+6,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+6,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,100.0
+6,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+6,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,98.5
+6,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,81.5
+6,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,72.8
+6,con,CON_FB,5-year revenue CAGR of 9.7% is below the sector median of 11.7%,61.0
+7,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+7,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+7,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+7,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,81.1
+7,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,77.6
+8,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+8,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,84.0
+8,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,60.5
+9,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+9,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,78.8
+9,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,78.2
+9,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,73.3
+9,con,CON_FB,5-year revenue CAGR of 9.8% is below the sector median of 12.2%,61.0
+10,pro,PRO_FB,"5-year revenue CAGR of 11.2% is the closest metric to the sector median of 12.2%, with no standout strength",61.0
+10,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,100.0
+10,con,CON_04,Company reported a net loss in the most recent financial year,100.0
+10,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,81.2
+11,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+11,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,61.5
+11,con,CON_FB,5-year net profit CAGR of 13.3% is below the sector median of 15.8%,61.0
+12,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+12,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,68.4
+12,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,74.6
+13,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,100.0
+13,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,95.2
+13,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,83.6
+13,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,79.7
+13,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,69.3
+13,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,61.7
+13,con,CON_FB,"5-year revenue CAGR of 15.6% is the closest metric to the sector median of 12.2%, with no standout weakness",61.0
+14,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+14,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,81.7
+14,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80.5
+14,con,CON_FB,5-year revenue CAGR of 10.5% is below the sector median of 12.2%,61.0
+15,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+15,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,84.6
+15,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,76.4
+15,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,62.7
+15,con,CON_FB,"5-year revenue CAGR of 12.4% is the closest metric to the sector median of 12.2%, with no standout weakness",61.0
+16,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+16,con,CON_FB,Return on equity of 13.2% is below the sector median of 20.7%,61.0
+17,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+17,con,CON_FB,5-year net profit CAGR of -13.0% is below the sector median of 15.8%,61.0
+18,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+18,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,73.6
+18,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70.0
+18,con,CON_FB,5-year revenue CAGR of 12.0% is below the sector median of 12.2%,61.0
+19,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,71.9
+19,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,100.0
+19,con,CON_04,Company reported a net loss in the most recent financial year,100.0
+19,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+20,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+20,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,77.2
+20,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,61.7
+20,con,CON_FB,5-year revenue CAGR of 14.4% is below the sector median of 17.1%,61.0
+21,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+21,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,64.8
+21,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,71.6
+22,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+22,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,68.0
+22,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,75.0
+23,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+23,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,85.9
+23,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80.7
+23,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,72.5
+23,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,69.4
+23,con,CON_FB,"5-year revenue CAGR of 18.5% is the closest metric to the sector median of 17.1%, with no standout weakness",61.0
+24,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+24,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,66.7
+24,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,61.1
+24,con,CON_FB,Return on equity of 18.1% is below the sector median of 18.8%,61.0
+25,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+25,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,63.2
+25,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,62.9
+25,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,82.8
+26,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+26,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,82.8
+26,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,80.9
+26,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,68.5
+26,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,64.6
+26,con,CON_FB,5-year revenue CAGR of 16.7% is below the sector median of 17.1%,61.0
+27,pro,PRO_FB,"5-year revenue CAGR of 6.8% is the closest metric to the sector median of 6.8%, with no standout strength",61.0
+27,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,100.0
+27,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+27,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,100.0
+27,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,93.0
+27,con,CON_04,Company reported a net loss in the most recent financial year,90.6
+27,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,69.6
+27,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,69.1
+28,pro,PRO_FB,5-year revenue CAGR of 9.3% is above the sector median of 6.8%,61.0
+28,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+28,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,78.2
+28,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,71.8
+28,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,70.4
+28,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,62.3
+29,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+29,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+29,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,60.3
+29,con,CON_12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,62.8
+30,pro,PRO_FB,5-year revenue CAGR of 6.8% is above the sector median of 6.8%,61.0
+30,con,CON_01,Debt-to-equity ratio of 11.24 is elevated for a non-financial company and warrants monitoring,100.0
+30,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,100.0
+30,con,CON_04,Company reported a net loss in the most recent financial year,100.0
+30,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,100.0
+30,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,100.0
+30,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+30,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,100.0
+30,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,96.8
+30,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,74.8
+31,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+31,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,64.7
+31,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,62.0
+32,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,62.3
+32,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,63.7
+33,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,75.1
+33,con,CON_FB,"Return on capital employed of 15.0% is the closest metric to the sector median of 13.5%, with no standout weakness",61.0
+34,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+34,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+34,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,81.1
+34,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,72.4
+34,con,CON_FB,5-year revenue CAGR of 5.6% is below the sector median of 6.8%,61.0
+35,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+35,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,88.1
+35,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,83.3
+35,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,99.8
+35,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,79.5
+35,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,64.5
+36,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+36,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+36,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,77.8
+36,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,71.8
+36,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,69.6
+37,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+37,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+37,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+37,con,CON_FB,Operating margin of 18.1% is below the sector median of 18.9%,61.0
+38,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+38,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80.0
+38,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,71.2
+38,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,62.2
+39,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+39,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,74.5
+39,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,65.8
+39,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,63.6
+39,con,CON_FB,5-year revenue CAGR of 8.8% is below the sector median of 10.5%,61.0
+40,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+40,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+40,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,95.3
+40,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,71.2
+40,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,70.5
+41,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+41,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+41,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,73.1
+41,con,CON_FB,"5-year revenue CAGR of 10.8% is the closest metric to the sector median of 10.5%, with no standout weakness",61.0
+42,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+42,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,65.1
+42,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,63.9
+42,con,CON_FB,"Operating margin of 19.7% is the closest metric to the sector median of 18.9%, with no standout weakness",61.0
+43,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,72.8
+43,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,100.0
+43,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,73.7
+43,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,68.0
+44,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,95.9
+44,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,91.4
+44,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70.4
+44,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,62.6
+44,con,CON_FB,5-year revenue CAGR of 8.4% is below the sector median of 9.2%,61.0
+45,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+45,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+45,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+45,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,90.9
+45,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,78.4
+46,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+46,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+46,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,60.3
+46,con,CON_07,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",67.2
+47,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,88.7
+47,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.6
+47,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,70.3
+47,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,69.4
+47,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,62.1
+47,con,CON_FB,Operating margin of 18.2% is below the sector median of 18.8%,61.0
+48,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+48,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+48,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.6
+48,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,69.4
+48,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,68.8
+48,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,68.5
+48,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,60.6
+48,con,CON_FB,"5-year revenue CAGR of 10.7% is the closest metric to the sector median of 9.2%, with no standout weakness",61.0
+49,pro,PRO_FB,Operating margin of 19.3% is above the sector median of 18.8%,61.0
+49,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,100.0
+49,con,CON_05,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,100.0
+49,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+49,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,100.0
+49,con,CON_04,Company reported a net loss in the most recent financial year,93.6
+49,con,CON_12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,91.4
+49,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,89.3
+49,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,81.9
+49,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,78.1
+49,con,CON_01,Debt-to-equity ratio of 3.03 is elevated for a non-financial company and warrants monitoring,73.8
+49,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,66.6
+50,pro,PRO_FB,"5-year revenue CAGR of 5.9% is the closest metric to the sector median of 9.2%, with no standout strength",61.0
+50,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,73.4
+51,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+51,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+51,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+51,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,74.4
+51,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,69.0
+51,con,CON_FB,5-year revenue CAGR of 9.6% is below the sector median of 12.9%,61.0
+52,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+52,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,89.4
+52,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.5
+52,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70.8
+52,con,CON_FB,5-year revenue CAGR of 8.8% is below the sector median of 12.9%,61.0
+53,pro,PRO_FB,5-year net profit CAGR of 12.6% is above the sector median of 4.9%,61.0
+53,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,65.0
+54,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,78.0
+54,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,60.4
+54,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,100.0
+54,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+54,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,88.2
+54,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,82.3
+55,pro,PRO_FB,5-year revenue CAGR of 12.9% is above the sector median of 12.9%,61.0
+55,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+55,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,88.0
+55,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,86.4
+55,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,83.8
+55,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,76.0
+55,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,65.0
+55,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,64.1
+56,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,63.2
+56,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,100.0
+56,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,100.0
+56,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,79.4
+57,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+57,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,65.9
+57,con,CON_12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,64.8
+58,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,69.3
+58,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,84.5
+58,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,82.7
+58,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,71.8
+58,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,64.4
+58,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,62.0
+59,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+59,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,100.0
+59,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90.4
+59,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,66.8
+59,con,CON_FB,Operating margin of 12.0% is below the sector median of 12.1%,61.0
+60,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+60,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,76.3
+60,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,70.8
+60,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,61.9
+61,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+61,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+61,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+61,con,CON_07,"Dividend payout ratio above 100% means the company is paying dividends from reserves, which is unsustainable",67.2
+61,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,60.5
+62,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+62,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+62,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,84.2
+62,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,70.2
+62,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,67.6
+62,con,CON_FB,"5-year revenue CAGR of 10.2% is the closest metric to the sector median of 7.7%, with no standout weakness",61.0
+63,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+63,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+63,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+63,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,63.2
+63,con,CON_FB,Return on capital employed of 15.6% is below the sector median of 16.4%,61.0
+64,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+64,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+64,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+64,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,91.9
+65,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+65,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+65,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+65,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,71.8
+65,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,66.2
+65,con,CON_12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,64.6
+66,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+66,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+66,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+66,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,72.0
+66,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,69.5
+67,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+67,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+67,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+67,con,CON_FB,5-year revenue CAGR of 6.8% is below the sector median of 7.7%,61.0
+68,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+68,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.6
+68,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,84.2
+68,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,77.9
+68,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,76.9
+68,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,61.7
+68,con,CON_FB,Operating margin of 33.4% is below the sector median of 36.9%,61.0
+69,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+69,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+69,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,75.2
+69,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,65.3
+69,con,CON_FB,Operating margin of 27.6% is below the sector median of 36.9%,61.0
+70,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,87.0
+70,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,65.3
+70,con,CON_FB,Return on capital employed of 20.7% is below the sector median of 23.5%,61.0
+71,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+71,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,80.4
+71,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,77.8
+71,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,65.1
+71,con,CON_FB,Return on capital employed of 17.6% is below the sector median of 23.5%,61.0
+72,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,100.0
+72,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,88.2
+72,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,84.8
+72,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,82.6
+72,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,80.1
+72,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,75.6
+72,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,64.4
+72,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,63.6
+72,con,CON_FB,"5-year revenue CAGR of 16.3% is the closest metric to the sector median of 10.8%, with no standout weakness",61.0
+73,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+73,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+73,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+73,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,88.6
+73,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,69.9
+73,con,CON_FB,"Return on equity of 19.2% is the closest metric to the sector median of 19.0%, with no standout weakness",61.0
+74,pro,PRO_FB,"5-year revenue CAGR of 10.1% is the closest metric to the sector median of 10.8%, with no standout strength",61.0
+74,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,100.0
+74,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+74,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,100.0
+74,con,CON_01,Debt-to-equity ratio of 4.61 is elevated for a non-financial company and warrants monitoring,94.7
+74,con,CON_04,Company reported a net loss in the most recent financial year,91.3
+74,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,84.0
+74,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,83.3
+74,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,79.2
+74,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,74.9
+75,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+75,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,100.0
+75,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,86.6
+75,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,86.5
+75,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,74.8
+75,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,72.8
+75,con,CON_FB,5-year revenue CAGR of 10.6% is below the sector median of 10.8%,61.0
+76,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+76,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+76,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+76,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,79.4
+76,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,68.1
+77,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+77,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden,100.0
+77,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+77,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,74.4
+77,con,CON_FB,5-year net profit CAGR of 11.1% is below the sector median of 13.6%,61.0
+78,pro,PRO_FB,Operating margin of 8.8% is above the sector median of 8.8%,61.0
+78,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+78,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,100.0
+78,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,92.0
+78,con,CON_04,Company reported a net loss in the most recent financial year,88.3
+78,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,79.5
+78,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,78.7
+78,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,77.4
+78,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,75.6
+79,pro,PRO_FB,"5-year revenue CAGR of 10.6% is the closest metric to the sector median of 11.0%, with no standout strength",61.0
+79,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,100.0
+79,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,100.0
+79,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,100.0
+79,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,97.6
+79,con,CON_04,Company reported a net loss in the most recent financial year,94.2
+79,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,92.4
+79,con,CON_01,Debt-to-equity ratio of 4.32 is elevated for a non-financial company and warrants monitoring,90.9
+80,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,95.2
+80,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,83.9
+80,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,83.0
+80,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,66.5
+80,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,64.5
+80,con,CON_FB,"5-year revenue CAGR of 11.0% is the closest metric to the sector median of 11.0%, with no standout weakness",61.0
+81,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,87.9
+81,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.6
+81,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70.3
+81,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,66.7
+81,con,CON_FB,"5-year revenue CAGR of 12.3% is the closest metric to the sector median of 11.0%, with no standout weakness",61.0
+82,pro,PRO_FB,"5-year revenue CAGR of 5.6% is the closest metric to the sector median of 11.0%, with no standout strength",61.0
+82,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,100.0
+82,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+82,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,100.0
+82,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,98.0
+82,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,95.1
+82,con,CON_04,Company reported a net loss in the most recent financial year,94.1
+82,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,71.9
+82,con,CON_01,Debt-to-equity ratio of 2.57 is elevated for a non-financial company and warrants monitoring,67.6
+83,pro,PRO_FB,5-year revenue CAGR of 14.0% is above the sector median of 11.0%,61.0
+83,con,CON_02,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,100.0
+83,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,98.9
+83,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,70.0
+83,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,68.9
+83,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,63.5
+84,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,84.4
+84,con,CON_FB,5-year revenue CAGR of 7.8% is below the sector median of 11.0%,61.0
+85,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+85,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,79.8
+85,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,63.9
+85,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,62.9
+85,con,CON_FB,Operating margin of 14.1% is below the sector median of 21.5%,61.0
+86,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,78.1
+86,con,CON_05,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,100.0
+86,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,100.0
+86,con,CON_04,Company reported a net loss in the most recent financial year,99.8
+86,con,CON_12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,94.0
+87,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.6
+87,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,74.1
+87,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,73.4
+87,pro,PRO_04,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,60.2
+87,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,60.2
+87,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,70.1
+87,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,69.0
+88,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+88,con,CON_FB,5-year net profit CAGR of 10.1% is below the sector median of 11.2%,61.0
+89,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,100.0
+89,pro,PRO_08,Consistent dividend yield above 2% backed by positive free cash flow,61.1
+89,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,86.2
+89,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,78.4
+89,con,CON_08,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,71.4
+89,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,69.7
+90,pro,PRO_07,Very high interest coverage ratio reflects negligible financial stress from debt servicing,100.0
+90,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,93.5
+90,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,70.1
+90,con,CON_FB,5-year revenue CAGR of 8.5% is below the sector median of 10.9%,61.0
+91,pro,PRO_FB,5-year revenue CAGR of 11.5% is above the sector median of 10.9%,61.0
+91,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,100.0
+91,con,CON_11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,86.2
+91,con,CON_03,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,83.2
+91,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,71.8
+91,con,CON_06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,65.3
+92,pro,PRO_FB,Return on equity of 21.9% is above the sector median of 14.8%,61.0
+92,con,CON_FB,Operating margin of 20.8% is below the sector median of 21.5%,61.0

@@ -1,0 +1,913 @@
+company_id,year,pattern
+1,2016,Asset Monetizer
+1,2017,Cash Accumulator
+1,2018,Reinvestor
+1,2019,Asset Monetizer
+1,2020,Reinvestor
+1,2021,Reinvestor
+1,2022,Reinvestor
+1,2023,Reinvestor
+1,2024,Reinvestor
+1,2025,Reinvestor
+2,2016,Asset Monetizer
+2,2017,Reinvestor
+2,2018,Reinvestor
+2,2019,Reinvestor
+2,2020,Reinvestor
+2,2021,Reinvestor
+2,2022,Asset Monetizer
+2,2023,Asset Monetizer
+2,2024,Reinvestor
+2,2025,Reinvestor
+3,2016,Reinvestor
+3,2017,Reinvestor
+3,2018,Reinvestor
+3,2019,Asset Monetizer
+3,2020,Reinvestor
+3,2021,Reinvestor
+3,2022,Reinvestor
+3,2023,Reinvestor
+3,2024,Reinvestor
+3,2025,Reinvestor
+4,2016,Reinvestor
+4,2017,Reinvestor
+4,2018,Aggressive Expander
+4,2019,Reinvestor
+4,2020,Aggressive Expander
+4,2021,Aggressive Expander
+4,2022,Reinvestor
+4,2023,Asset Monetizer
+4,2024,Asset Monetizer
+4,2025,Reinvestor
+5,2016,Reinvestor
+5,2017,Reinvestor
+5,2018,Reinvestor
+5,2019,Cash Accumulator
+5,2020,Reinvestor
+5,2021,Asset Monetizer
+5,2022,Cash Accumulator
+5,2023,Reinvestor
+5,2024,Reinvestor
+5,2025,Reinvestor
+6,2016,Reinvestor
+6,2017,Reinvestor
+6,2018,Reinvestor
+6,2019,Aggressive Expander
+6,2020,Reinvestor
+6,2021,Aggressive Expander
+6,2022,Aggressive Expander
+6,2023,Reinvestor
+6,2024,Aggressive Expander
+6,2025,Reinvestor
+7,2016,Aggressive Expander
+7,2017,Cash Accumulator
+7,2018,Aggressive Expander
+7,2019,Reinvestor
+7,2020,Reinvestor
+7,2021,Reinvestor
+7,2022,Reinvestor
+7,2023,Aggressive Expander
+7,2024,Reinvestor
+7,2025,Reinvestor
+8,2016,Reinvestor
+8,2017,Reinvestor
+8,2018,Reinvestor
+8,2019,Reinvestor
+8,2020,Reinvestor
+8,2021,Reinvestor
+8,2022,Reinvestor
+8,2023,Reinvestor
+8,2024,Reinvestor
+8,2025,Aggressive Expander
+9,2016,Reinvestor
+9,2017,Asset Monetizer
+9,2018,Aggressive Expander
+9,2019,Aggressive Expander
+9,2020,Reinvestor
+9,2021,Reinvestor
+9,2022,Reinvestor
+9,2023,Reinvestor
+9,2024,Reinvestor
+9,2025,Asset Monetizer
+10,2016,Asset Liquidator
+10,2017,Capital Raiser
+10,2018,Capital Raiser
+10,2019,Capital Raiser
+10,2020,Capital Raiser
+10,2021,Capital Raiser
+10,2022,Distress Signal
+10,2023,Capital Raiser
+10,2024,Capital Raiser
+10,2025,Capital Raiser
+11,2016,Reinvestor
+11,2017,Reinvestor
+11,2018,Aggressive Expander
+11,2019,Cash Accumulator
+11,2020,Reinvestor
+11,2021,Aggressive Expander
+11,2022,Aggressive Expander
+11,2023,Cash Accumulator
+11,2024,Aggressive Expander
+11,2025,Reinvestor
+12,2016,Reinvestor
+12,2017,Reinvestor
+12,2018,Cash Accumulator
+12,2019,Reinvestor
+12,2020,Asset Monetizer
+12,2021,Reinvestor
+12,2022,Reinvestor
+12,2023,Reinvestor
+12,2024,Reinvestor
+12,2025,Reinvestor
+13,2016,Capital Raiser
+13,2017,Cash Accumulator
+13,2018,Reinvestor
+13,2019,Aggressive Expander
+13,2020,Reinvestor
+13,2021,Reinvestor
+13,2022,Reinvestor
+13,2023,Reinvestor
+13,2024,Aggressive Expander
+13,2025,Reinvestor
+14,2016,Reinvestor
+14,2017,Reinvestor
+14,2018,Asset Monetizer
+14,2019,Reinvestor
+14,2020,Reinvestor
+14,2021,Reinvestor
+14,2022,Reinvestor
+14,2023,Reinvestor
+14,2024,Asset Monetizer
+14,2025,Reinvestor
+15,2016,Reinvestor
+15,2017,Reinvestor
+15,2018,Reinvestor
+15,2019,Aggressive Expander
+15,2020,Reinvestor
+15,2021,Asset Monetizer
+15,2022,Reinvestor
+15,2023,Asset Monetizer
+15,2024,Asset Monetizer
+15,2025,Asset Monetizer
+16,2016,Reinvestor
+16,2017,Reinvestor
+16,2018,Reinvestor
+16,2019,Reinvestor
+16,2020,Reinvestor
+16,2021,Reinvestor
+16,2022,Reinvestor
+16,2023,Reinvestor
+16,2024,Reinvestor
+16,2025,Cash Accumulator
+17,2016,Aggressive Expander
+17,2017,Aggressive Expander
+17,2018,Aggressive Expander
+17,2019,Aggressive Expander
+17,2020,Aggressive Expander
+17,2021,Aggressive Expander
+17,2022,Aggressive Expander
+17,2023,Aggressive Expander
+17,2024,Aggressive Expander
+17,2025,Aggressive Expander
+18,2016,Reinvestor
+18,2017,Reinvestor
+18,2018,Reinvestor
+18,2019,Reinvestor
+18,2020,Cash Accumulator
+18,2021,Reinvestor
+18,2022,Reinvestor
+18,2023,Reinvestor
+18,2024,Reinvestor
+18,2025,Reinvestor
+19,2016,Capital Raiser
+19,2017,Capital Raiser
+19,2018,Reinvestor
+19,2019,Capital Raiser
+19,2020,Aggressive Expander
+19,2021,Capital Raiser
+19,2022,Capital Raiser
+19,2023,Capital Raiser
+19,2024,Capital Raiser
+19,2025,Capital Raiser
+20,2016,Reinvestor
+20,2017,Reinvestor
+20,2018,Reinvestor
+20,2019,Reinvestor
+20,2020,Reinvestor
+20,2021,Reinvestor
+20,2022,Reinvestor
+20,2023,Reinvestor
+20,2024,Reinvestor
+20,2025,Reinvestor
+21,2016,Reinvestor
+21,2017,Aggressive Expander
+21,2018,Reinvestor
+21,2019,Aggressive Expander
+21,2020,Aggressive Expander
+21,2021,Reinvestor
+21,2022,Reinvestor
+21,2023,Reinvestor
+21,2024,Reinvestor
+21,2025,Reinvestor
+22,2016,Reinvestor
+22,2017,Aggressive Expander
+22,2018,Reinvestor
+22,2019,Asset Monetizer
+22,2020,Reinvestor
+22,2021,Reinvestor
+22,2022,Reinvestor
+22,2023,Reinvestor
+22,2024,Reinvestor
+22,2025,Reinvestor
+23,2016,Reinvestor
+23,2017,Reinvestor
+23,2018,Reinvestor
+23,2019,Asset Monetizer
+23,2020,Cash Accumulator
+23,2021,Reinvestor
+23,2022,Reinvestor
+23,2023,Reinvestor
+23,2024,Reinvestor
+23,2025,Asset Monetizer
+24,2016,Aggressive Expander
+24,2017,Aggressive Expander
+24,2018,Reinvestor
+24,2019,Aggressive Expander
+24,2020,Cash Accumulator
+24,2021,Aggressive Expander
+24,2022,Reinvestor
+24,2023,Aggressive Expander
+24,2024,Aggressive Expander
+24,2025,Aggressive Expander
+25,2016,Reinvestor
+25,2017,Aggressive Expander
+25,2018,Aggressive Expander
+25,2019,Aggressive Expander
+25,2020,Aggressive Expander
+25,2021,Aggressive Expander
+25,2022,Cash Accumulator
+25,2023,Aggressive Expander
+25,2024,Aggressive Expander
+25,2025,Aggressive Expander
+26,2016,Aggressive Expander
+26,2017,Aggressive Expander
+26,2018,Reinvestor
+26,2019,Aggressive Expander
+26,2020,Reinvestor
+26,2021,Reinvestor
+26,2022,Reinvestor
+26,2023,Aggressive Expander
+26,2024,Reinvestor
+26,2025,Reinvestor
+27,2016,Reinvestor
+27,2017,Reinvestor
+27,2018,Reinvestor
+27,2019,Aggressive Expander
+27,2020,Aggressive Expander
+27,2021,Aggressive Expander
+27,2022,Reinvestor
+27,2023,Asset Monetizer
+27,2024,Aggressive Expander
+27,2025,Reinvestor
+28,2016,Reinvestor
+28,2017,Aggressive Expander
+28,2018,Reinvestor
+28,2019,Reinvestor
+28,2020,Aggressive Expander
+28,2021,Reinvestor
+28,2022,Cash Accumulator
+28,2023,Reinvestor
+28,2024,Reinvestor
+28,2025,Asset Monetizer
+29,2016,Reinvestor
+29,2017,Reinvestor
+29,2018,Reinvestor
+29,2019,Aggressive Expander
+29,2020,Reinvestor
+29,2021,Reinvestor
+29,2022,Asset Monetizer
+29,2023,Reinvestor
+29,2024,Reinvestor
+29,2025,Asset Monetizer
+30,2016,Reinvestor
+30,2017,Aggressive Expander
+30,2018,Cash Accumulator
+30,2019,Aggressive Expander
+30,2020,Aggressive Expander
+30,2021,Aggressive Expander
+30,2022,Capital Raiser
+30,2023,Distress Signal
+30,2024,Capital Raiser
+30,2025,Capital Raiser
+31,2016,Reinvestor
+31,2017,Asset Monetizer
+31,2018,Reinvestor
+31,2019,Reinvestor
+31,2020,Reinvestor
+31,2021,Reinvestor
+31,2022,Aggressive Expander
+31,2023,Reinvestor
+31,2024,Reinvestor
+31,2025,Aggressive Expander
+32,2016,Cash Accumulator
+32,2017,Reinvestor
+32,2018,Aggressive Expander
+32,2019,Aggressive Expander
+32,2020,Reinvestor
+32,2021,Reinvestor
+32,2022,Asset Monetizer
+32,2023,Reinvestor
+32,2024,Reinvestor
+32,2025,Asset Monetizer
+33,2016,Reinvestor
+33,2017,Reinvestor
+33,2018,Reinvestor
+33,2019,Reinvestor
+33,2020,Reinvestor
+33,2021,Reinvestor
+33,2022,Reinvestor
+33,2023,Aggressive Expander
+33,2024,Asset Monetizer
+33,2025,Asset Monetizer
+34,2016,Cash Accumulator
+34,2017,Reinvestor
+34,2018,Aggressive Expander
+34,2019,Reinvestor
+34,2020,Reinvestor
+34,2021,Reinvestor
+34,2022,Aggressive Expander
+34,2023,Reinvestor
+34,2024,Reinvestor
+34,2025,Asset Monetizer
+35,2016,Reinvestor
+35,2017,Aggressive Expander
+35,2018,Reinvestor
+35,2019,Aggressive Expander
+35,2020,Aggressive Expander
+35,2021,Reinvestor
+35,2022,Asset Monetizer
+35,2023,Reinvestor
+35,2024,Aggressive Expander
+35,2025,Reinvestor
+36,2016,Reinvestor
+36,2017,Reinvestor
+36,2018,Reinvestor
+36,2019,Reinvestor
+36,2020,Reinvestor
+36,2021,Reinvestor
+36,2022,Asset Monetizer
+36,2023,Reinvestor
+36,2024,Reinvestor
+36,2025,Reinvestor
+37,2016,Reinvestor
+37,2017,Reinvestor
+37,2018,Reinvestor
+37,2019,Aggressive Expander
+37,2020,Reinvestor
+37,2021,Reinvestor
+37,2022,Aggressive Expander
+37,2023,Reinvestor
+37,2024,Reinvestor
+37,2025,Cash Accumulator
+38,2016,Reinvestor
+38,2017,Aggressive Expander
+38,2018,Aggressive Expander
+38,2019,Reinvestor
+38,2020,Reinvestor
+38,2021,Reinvestor
+38,2022,Reinvestor
+38,2023,Reinvestor
+38,2024,Reinvestor
+38,2025,Asset Monetizer
+39,2016,Reinvestor
+39,2017,Asset Monetizer
+39,2018,Reinvestor
+39,2019,Reinvestor
+39,2020,Reinvestor
+39,2021,Asset Monetizer
+39,2022,Aggressive Expander
+39,2023,Aggressive Expander
+39,2024,Reinvestor
+39,2025,Reinvestor
+40,2016,Reinvestor
+40,2017,Reinvestor
+40,2018,Aggressive Expander
+40,2019,Reinvestor
+40,2020,Reinvestor
+40,2021,Reinvestor
+40,2022,Reinvestor
+40,2023,Reinvestor
+40,2024,Aggressive Expander
+40,2025,Reinvestor
+41,2016,Reinvestor
+41,2017,Reinvestor
+41,2018,Cash Accumulator
+41,2019,Reinvestor
+41,2020,Reinvestor
+41,2021,Reinvestor
+41,2022,Reinvestor
+41,2023,Asset Monetizer
+41,2024,Asset Monetizer
+41,2025,Aggressive Expander
+42,2016,Reinvestor
+42,2017,Aggressive Expander
+42,2018,Reinvestor
+42,2019,Reinvestor
+42,2020,Aggressive Expander
+42,2021,Reinvestor
+42,2022,Aggressive Expander
+42,2023,Reinvestor
+42,2024,Reinvestor
+42,2025,Reinvestor
+43,2016,Reinvestor
+43,2017,Reinvestor
+43,2018,Reinvestor
+43,2019,Reinvestor
+43,2020,Reinvestor
+43,2021,Reinvestor
+43,2022,Reinvestor
+43,2023,Aggressive Expander
+43,2024,Reinvestor
+43,2025,Reinvestor
+44,2016,Reinvestor
+44,2017,Reinvestor
+44,2018,Reinvestor
+44,2019,Reinvestor
+44,2020,Cash Accumulator
+44,2021,Reinvestor
+44,2022,Reinvestor
+44,2023,Reinvestor
+44,2024,Aggressive Expander
+44,2025,Cash Accumulator
+45,2016,Asset Monetizer
+45,2017,Reinvestor
+45,2018,Reinvestor
+45,2019,Asset Monetizer
+45,2020,Reinvestor
+45,2021,Reinvestor
+45,2022,Reinvestor
+45,2023,Aggressive Expander
+45,2024,Aggressive Expander
+45,2025,Reinvestor
+46,2016,Reinvestor
+46,2017,Asset Monetizer
+46,2018,Reinvestor
+46,2019,Reinvestor
+46,2020,Asset Monetizer
+46,2021,Reinvestor
+46,2022,Reinvestor
+46,2023,Reinvestor
+46,2024,Reinvestor
+46,2025,Distress Signal
+47,2016,Reinvestor
+47,2017,Aggressive Expander
+47,2018,Reinvestor
+47,2019,Reinvestor
+47,2020,Aggressive Expander
+47,2021,Reinvestor
+47,2022,Cash Accumulator
+47,2023,Aggressive Expander
+47,2024,Reinvestor
+47,2025,Reinvestor
+48,2016,Reinvestor
+48,2017,Reinvestor
+48,2018,Aggressive Expander
+48,2019,Aggressive Expander
+48,2020,Aggressive Expander
+48,2021,Reinvestor
+48,2022,Reinvestor
+48,2023,Reinvestor
+48,2024,Aggressive Expander
+48,2025,Asset Monetizer
+49,2016,Reinvestor
+49,2017,Aggressive Expander
+49,2018,Aggressive Expander
+49,2019,Aggressive Expander
+49,2020,Aggressive Expander
+49,2021,Aggressive Expander
+49,2022,Aggressive Expander
+49,2023,Aggressive Expander
+49,2024,Aggressive Expander
+49,2025,Capital Raiser
+50,2016,Reinvestor
+50,2017,Reinvestor
+50,2018,Reinvestor
+50,2019,Aggressive Expander
+50,2020,Reinvestor
+50,2021,Cash Accumulator
+50,2022,Reinvestor
+50,2023,Asset Monetizer
+50,2024,Reinvestor
+50,2025,Reinvestor
+51,2016,Reinvestor
+51,2017,Reinvestor
+51,2018,Reinvestor
+51,2019,Asset Monetizer
+51,2020,Reinvestor
+51,2021,Reinvestor
+51,2022,Cash Accumulator
+51,2023,Reinvestor
+51,2024,Reinvestor
+51,2025,Reinvestor
+52,2016,Reinvestor
+52,2017,Reinvestor
+52,2018,Reinvestor
+52,2019,Reinvestor
+52,2020,Reinvestor
+52,2021,Reinvestor
+52,2022,Aggressive Expander
+52,2023,Asset Monetizer
+52,2024,Reinvestor
+52,2025,Aggressive Expander
+53,2016,Reinvestor
+53,2017,Reinvestor
+53,2018,Reinvestor
+53,2019,Reinvestor
+53,2020,Reinvestor
+53,2021,Reinvestor
+53,2022,Asset Monetizer
+53,2023,Reinvestor
+53,2024,Reinvestor
+53,2025,Aggressive Expander
+54,2016,Reinvestor
+54,2017,Reinvestor
+54,2018,Reinvestor
+54,2019,Reinvestor
+54,2020,Asset Monetizer
+54,2021,Asset Monetizer
+54,2022,Reinvestor
+54,2023,Asset Monetizer
+54,2024,Reinvestor
+54,2025,Reinvestor
+55,2016,Aggressive Expander
+55,2017,Reinvestor
+55,2018,Aggressive Expander
+55,2019,Aggressive Expander
+55,2020,Aggressive Expander
+55,2021,Reinvestor
+55,2022,Aggressive Expander
+55,2023,Aggressive Expander
+55,2024,Aggressive Expander
+55,2025,Reinvestor
+56,2016,Reinvestor
+56,2017,Reinvestor
+56,2018,Aggressive Expander
+56,2019,Asset Monetizer
+56,2020,Reinvestor
+56,2021,Reinvestor
+56,2022,Reinvestor
+56,2023,Aggressive Expander
+56,2024,Reinvestor
+56,2025,Reinvestor
+57,2016,Reinvestor
+57,2017,Aggressive Expander
+57,2018,Reinvestor
+57,2019,Reinvestor
+57,2020,Reinvestor
+57,2021,Reinvestor
+57,2022,Aggressive Expander
+57,2023,Aggressive Expander
+57,2024,Aggressive Expander
+57,2025,Reinvestor
+58,2016,Reinvestor
+58,2017,Aggressive Expander
+58,2018,Aggressive Expander
+58,2019,Aggressive Expander
+58,2020,Aggressive Expander
+58,2021,Reinvestor
+58,2022,Reinvestor
+58,2023,Aggressive Expander
+58,2024,Aggressive Expander
+58,2025,Cash Accumulator
+59,2016,Reinvestor
+59,2017,Reinvestor
+59,2018,Reinvestor
+59,2019,Asset Monetizer
+59,2020,Reinvestor
+59,2021,Reinvestor
+59,2022,Reinvestor
+59,2023,Aggressive Expander
+59,2024,Aggressive Expander
+59,2025,Reinvestor
+60,2016,Reinvestor
+60,2017,Aggressive Expander
+60,2018,Reinvestor
+60,2019,Reinvestor
+60,2020,Reinvestor
+60,2021,Reinvestor
+60,2022,Reinvestor
+60,2023,Aggressive Expander
+60,2024,Reinvestor
+60,2025,Asset Monetizer
+61,2016,Reinvestor
+61,2017,Reinvestor
+61,2018,Aggressive Expander
+61,2019,Reinvestor
+61,2020,Aggressive Expander
+61,2021,Reinvestor
+61,2022,Aggressive Expander
+61,2023,Reinvestor
+61,2024,Reinvestor
+61,2025,Reinvestor
+62,2016,Reinvestor
+62,2017,Reinvestor
+62,2018,Reinvestor
+62,2019,Reinvestor
+62,2020,Reinvestor
+62,2021,Reinvestor
+62,2022,Reinvestor
+62,2023,Reinvestor
+62,2024,Reinvestor
+62,2025,Reinvestor
+63,2016,Reinvestor
+63,2017,Aggressive Expander
+63,2018,Reinvestor
+63,2019,Aggressive Expander
+63,2020,Reinvestor
+63,2021,Reinvestor
+63,2022,Reinvestor
+63,2023,Cash Accumulator
+63,2024,Reinvestor
+63,2025,Cash Accumulator
+64,2016,Reinvestor
+64,2017,Aggressive Expander
+64,2018,Reinvestor
+64,2019,Reinvestor
+64,2020,Reinvestor
+64,2021,Reinvestor
+64,2022,Reinvestor
+64,2023,Reinvestor
+64,2024,Reinvestor
+64,2025,Aggressive Expander
+65,2016,Reinvestor
+65,2017,Reinvestor
+65,2018,Aggressive Expander
+65,2019,Reinvestor
+65,2020,Reinvestor
+65,2021,Reinvestor
+65,2022,Reinvestor
+65,2023,Reinvestor
+65,2024,Reinvestor
+65,2025,Reinvestor
+66,2016,Reinvestor
+66,2017,Reinvestor
+66,2018,Reinvestor
+66,2019,Reinvestor
+66,2020,Reinvestor
+66,2021,Reinvestor
+66,2022,Asset Monetizer
+66,2023,Aggressive Expander
+66,2024,Reinvestor
+66,2025,Reinvestor
+67,2016,Reinvestor
+67,2017,Aggressive Expander
+67,2018,Reinvestor
+67,2019,Reinvestor
+67,2020,Reinvestor
+67,2021,Asset Monetizer
+67,2022,Aggressive Expander
+67,2023,Reinvestor
+67,2024,Reinvestor
+67,2025,Aggressive Expander
+68,2016,Reinvestor
+68,2017,Reinvestor
+68,2018,Reinvestor
+68,2019,Reinvestor
+68,2020,Reinvestor
+68,2021,Reinvestor
+68,2022,Reinvestor
+68,2023,Reinvestor
+68,2024,Reinvestor
+68,2025,Aggressive Expander
+69,2016,Reinvestor
+69,2017,Aggressive Expander
+69,2018,Reinvestor
+69,2019,Aggressive Expander
+69,2020,Reinvestor
+69,2021,Reinvestor
+69,2022,Reinvestor
+69,2023,Reinvestor
+69,2024,Reinvestor
+69,2025,Asset Monetizer
+70,2016,Reinvestor
+70,2017,Asset Monetizer
+70,2018,Aggressive Expander
+70,2019,Reinvestor
+70,2020,Reinvestor
+70,2021,Reinvestor
+70,2022,Reinvestor
+70,2023,Reinvestor
+70,2024,Reinvestor
+70,2025,Capital Raiser
+71,2016,Reinvestor
+71,2017,Asset Monetizer
+71,2018,Reinvestor
+71,2019,Reinvestor
+71,2020,Reinvestor
+71,2021,Reinvestor
+71,2022,Aggressive Expander
+71,2023,Reinvestor
+71,2024,Reinvestor
+71,2025,Reinvestor
+72,2016,Reinvestor
+72,2017,Reinvestor
+72,2018,Aggressive Expander
+72,2019,Reinvestor
+72,2020,Reinvestor
+72,2021,Aggressive Expander
+72,2022,Reinvestor
+72,2023,Reinvestor
+72,2024,Reinvestor
+72,2025,Distress Signal
+73,2016,Reinvestor
+73,2017,Reinvestor
+73,2018,Aggressive Expander
+73,2019,Reinvestor
+73,2020,Reinvestor
+73,2021,Reinvestor
+73,2022,Reinvestor
+73,2023,Reinvestor
+73,2024,Asset Monetizer
+73,2025,Reinvestor
+74,2016,Reinvestor
+74,2017,Asset Monetizer
+74,2018,Aggressive Expander
+74,2019,Aggressive Expander
+74,2020,Aggressive Expander
+74,2021,Cash Accumulator
+74,2022,Aggressive Expander
+74,2023,Aggressive Expander
+74,2024,Aggressive Expander
+74,2025,Capital Raiser
+75,2016,Reinvestor
+75,2017,Aggressive Expander
+75,2018,Reinvestor
+75,2019,Reinvestor
+75,2020,Aggressive Expander
+75,2021,Reinvestor
+75,2022,Reinvestor
+75,2023,Reinvestor
+75,2024,Asset Monetizer
+75,2025,Reinvestor
+76,2016,Reinvestor
+76,2017,Aggressive Expander
+76,2018,Reinvestor
+76,2019,Aggressive Expander
+76,2020,Aggressive Expander
+76,2021,Reinvestor
+76,2022,Reinvestor
+76,2023,Reinvestor
+76,2024,Aggressive Expander
+76,2025,Aggressive Expander
+77,2016,Reinvestor
+77,2017,Aggressive Expander
+77,2018,Reinvestor
+77,2019,Reinvestor
+77,2020,Reinvestor
+77,2021,Reinvestor
+77,2022,Reinvestor
+77,2023,Aggressive Expander
+77,2024,Reinvestor
+77,2025,Reinvestor
+78,2016,Reinvestor
+78,2017,Reinvestor
+78,2018,Aggressive Expander
+78,2019,Aggressive Expander
+78,2020,Aggressive Expander
+78,2021,Reinvestor
+78,2022,Aggressive Expander
+78,2023,Aggressive Expander
+78,2024,Aggressive Expander
+78,2025,Aggressive Expander
+79,2016,Reinvestor
+79,2017,Aggressive Expander
+79,2018,Aggressive Expander
+79,2019,Aggressive Expander
+79,2020,Aggressive Expander
+79,2021,Aggressive Expander
+79,2022,Aggressive Expander
+79,2023,Aggressive Expander
+79,2024,Capital Raiser
+79,2025,Capital Raiser
+80,2016,Reinvestor
+80,2017,Reinvestor
+80,2018,Reinvestor
+80,2019,Reinvestor
+80,2020,Reinvestor
+80,2021,Aggressive Expander
+80,2022,Reinvestor
+80,2023,Reinvestor
+80,2024,Reinvestor
+80,2025,Reinvestor
+81,2016,Reinvestor
+81,2017,Asset Monetizer
+81,2018,Reinvestor
+81,2019,Aggressive Expander
+81,2020,Reinvestor
+81,2021,Reinvestor
+81,2022,Reinvestor
+81,2023,Reinvestor
+81,2024,Aggressive Expander
+81,2025,Aggressive Expander
+82,2016,Reinvestor
+82,2017,Aggressive Expander
+82,2018,Reinvestor
+82,2019,Aggressive Expander
+82,2020,Aggressive Expander
+82,2021,Cash Accumulator
+82,2022,Aggressive Expander
+82,2023,Aggressive Expander
+82,2024,Capital Raiser
+82,2025,Distress Signal
+83,2016,Asset Monetizer
+83,2017,Asset Monetizer
+83,2018,Reinvestor
+83,2019,Asset Monetizer
+83,2020,Reinvestor
+83,2021,Reinvestor
+83,2022,Reinvestor
+83,2023,Reinvestor
+83,2024,Aggressive Expander
+83,2025,Reinvestor
+84,2016,Reinvestor
+84,2017,Reinvestor
+84,2018,Reinvestor
+84,2019,Reinvestor
+84,2020,Reinvestor
+84,2021,Reinvestor
+84,2022,Reinvestor
+84,2023,Reinvestor
+84,2024,Reinvestor
+84,2025,Reinvestor
+85,2016,Reinvestor
+85,2017,Reinvestor
+85,2018,Reinvestor
+85,2019,Reinvestor
+85,2020,Reinvestor
+85,2021,Asset Monetizer
+85,2022,Reinvestor
+85,2023,Reinvestor
+85,2024,Reinvestor
+85,2025,Reinvestor
+86,2016,Reinvestor
+86,2017,Asset Monetizer
+86,2018,Reinvestor
+86,2019,Reinvestor
+86,2020,Aggressive Expander
+86,2021,Cash Accumulator
+86,2022,Reinvestor
+86,2023,Reinvestor
+86,2024,Asset Monetizer
+86,2025,Distress Signal
+87,2016,Reinvestor
+87,2017,Aggressive Expander
+87,2018,Reinvestor
+87,2019,Reinvestor
+87,2020,Reinvestor
+87,2021,Reinvestor
+87,2022,Asset Monetizer
+87,2023,Reinvestor
+87,2024,Asset Monetizer
+87,2025,Reinvestor
+88,2016,Reinvestor
+88,2017,Aggressive Expander
+88,2018,Reinvestor
+88,2019,Reinvestor
+88,2020,Reinvestor
+88,2021,Reinvestor
+88,2022,Aggressive Expander
+88,2023,Reinvestor
+88,2024,Reinvestor
+88,2025,Aggressive Expander
+89,2016,Asset Monetizer
+89,2017,Reinvestor
+89,2018,Aggressive Expander
+89,2019,Reinvestor
+89,2020,Reinvestor
+89,2021,Aggressive Expander
+89,2022,Reinvestor
+89,2023,Aggressive Expander
+89,2024,Aggressive Expander
+89,2025,Aggressive Expander
+90,2016,Reinvestor
+90,2017,Reinvestor
+90,2018,Asset Monetizer
+90,2019,Reinvestor
+90,2020,Reinvestor
+90,2021,Reinvestor
+90,2022,Reinvestor
+90,2023,Aggressive Expander
+90,2024,Reinvestor
+90,2025,Reinvestor
+91,2016,Reinvestor
+91,2017,Aggressive Expander
+91,2018,Reinvestor
+91,2019,Aggressive Expander
+91,2020,Aggressive Expander
+91,2021,Aggressive Expander
+91,2022,Reinvestor
+91,2023,Reinvestor
+91,2024,Reinvestor
+91,2025,Reinvestor
+92,2024,Asset Monetizer
+92,2025,Reinvestor

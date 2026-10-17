@@ -1,0 +1,31 @@
+company_id,metric_type,unmatched_text
+4,compounded_profit_growth,TTM: 12%
+10,compounded_profit_growth,<empty>
+10,stock_price_cagr,TTM: 12%
+18,compounded_sales_growth,TTM: 12%
+18,compounded_profit_growth,TTM: 12%
+19,compounded_profit_growth,<empty>
+22,compounded_profit_growth,TTM: 12%
+24,compounded_profit_growth,<empty>
+25,compounded_sales_growth,TTM: 12%
+26,stock_price_cagr,<empty>
+27,compounded_profit_growth,<empty>
+29,compounded_profit_growth,TTM: 12%
+30,compounded_profit_growth,<empty>
+32,compounded_profit_growth,TTM: 12%
+34,stock_price_cagr,TTM: 12%
+37,compounded_sales_growth,TTM: 12%
+49,compounded_profit_growth,<empty>
+56,compounded_sales_growth,TTM: 12%
+60,roe,TTM: 12%
+62,stock_price_cagr,TTM: 12%
+67,stock_price_cagr,TTM: 12%
+74,compounded_profit_growth,<empty>
+77,compounded_profit_growth,TTM: 12%
+78,compounded_profit_growth,<empty>
+79,compounded_profit_growth,<empty>
+82,compounded_profit_growth,<empty>
+86,compounded_profit_growth,<empty>
+89,stock_price_cagr,TTM: 12%
+92,compounded_sales_growth,<empty>
+92,compounded_profit_growth,<empty>
